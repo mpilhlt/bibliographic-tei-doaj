@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: </p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>

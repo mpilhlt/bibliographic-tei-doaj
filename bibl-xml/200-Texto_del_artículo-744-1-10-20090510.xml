@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="http://hc.rediris.es/04/index.html">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Santos, Gustavo Ferreira: "A constituic,ao da primeira república brasileira", in: Historia Constitucional 4 (2003), pp. 335-346, http://hc.rediris.es/04/index.html</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 “Federalismo, presidencialismo e ampliação do regime representativo são as três grandes coordenadas legais da Primeira República” Maria do Carmo Campelo de SOUZA In: Carlos Guilherme MOTA (org.), Brasil em perspectiva, p. 162.
+2 “Assumindo a titularidade constituinte durante o auge da crise que determinou a mudança do regime, o Governo Provisório baixou em 15 de novembro de 1889 o famoso Decreto nº 1, parte de um conjunto de atos sucessivos, cuja combinação produzira uma Constituição de bolso, emergencial, para reger o País, evitar o caos e decretar as bases fundamentais da organização política imediatamente estabelecida” Paulo BONAVIDES, Paes de ANDRADE, História Constitucional do Brasil, p. 210.
+3 Sobre as influências, diz Amaro CAVALCANTI, que a Constituição era “o texto da Constituição norte-americana completado com algumas disposições das Constituições suíça e argentina” Apud José Afonso da SILVA, ob. cit., p. 71. Adhemar Ferreira MACIEL chama as Costituições norte- americana, argentina e suíça de “Constituições Paradigmas” Nossa Primeira Constituição Republicana à Luz do Direito Comparado;
+4 O professor J.J. Gomes CANOTILHO se refere a esta influência em diversas passagens da sua Obra Direito Constitucional (especificamente: pp. 320 e 974, da 6ª edição);
+5 A data foi escolhida em homenagem ao aniversário do Manifesto Republicano de 1870 e do lançamento do jornal “A República”;
+6 Otaviano NOGUEIRA, in: Paulo BONAVIDES (org.), História Constitucional do Brasil. Rio de Janeiro: Paz e Terra, 1991, p. 01;
+7 Idem, p.03;
+8 A Comissão era composta pelos seguintes Constituintes: Francisco Machado (Amazonas), Lauro Sodré (Pará), Casimiro Júnior (Maranhão), Teodoro Pacheco (Piauí), Joaquim de Oliveira Catunda (Ceará), Amaro Cavalcanti (Rio Grande do Norte), João Neiva (Paraíba), José Higyno (Pernambuco), Sabino Besouro (Alagoas), Oliveira Valadão (Sergipe), Virgílio Damásio (Bahia), Gil Goulart (Espírito Santo), Bernardino de Campos (São Paulo), João Batista Lapér (Rio de Janeiro), Ubaldino do Amaral (Paraná), Lauro Müller (Santa Catarina), Júlio de Castilhos (Rio Grande do Sul), João Pinheiro (Minas Gerais), Lopes Trovão (Capital Federal), Leopoldo de Bulhões (Goiás) e Aquilino do Amaral (Mato Grosso);
+9 “As alterações sofridas pelo projeto do governo provisório na Assembléia Constituinte foram relativamente irrelevantes, e, seguramente, em escasso número. Pedro Calmon observa que, comparados os dois textos, verifica-se que 74 artigos do projeto ‘se incluem intatos, ou apenas ligeiramente alterados’, nos 90 artigos da Constituição aprovada” Afonso Arinos de Melo FRANCO, Curso de Direito Constitucional Brasileiro, Vol. II, Formação Constitucional do Brasil, p.130;
+10 “Optou-se por ‘Estados Unidos do Brasil’. Como se percebe, o constituinte brasileiro preferiu a denominação norte-americana, que foi apropriada para eles, não para nós. Antes mesmo dos Artigos da Confederação, que falavam enfaticamente que a denominação da Confederação seria ‘The United States of America’ (art. I), o próprio tratado de paz com a Grã-Bretanha (1872) aludiu ao ‘dito Estados Unidos’. Diferente foi nossa situação. A Federação brasileira se fez por decreto. Não se teve preocupação com nossa realidade histórica. Diferentemente dos Estados Unidos da América, o Brasil era um Estado unitário. Nossa entidades intraestatais tinham o nome de ‘Províncias’ . Províncias deveriam continuar sendo. Na Suíça se deu exatamente o contrário: ficou-se preso demais à História, sacrificando-se à realidade jurídica. Embora a Suíça seja tecnicamente um ‘Estado Federal’, desde 1848 seu nome é ‘Confederação Suíça’” Adhemar Ferreira MACIEL, ob. cit., p. 196;;
+11 Idem, p. 197;
+12 Clovis de Souto GOULART, Formas e Sistemas de Governo, p. 158;
+13 Afonso Arinos de Melo FRANCO, ob. cit, p. 135;
+14 O Art. 59, que definia a competência do Supremo Tribunal Federal dizia , em seu parágrafo primeiro, alíneas “a” e “b”, a ele competir recurso das sentenças das justiças dos Estados em última instância quando se questionar sobre a validade ou a aplicação de tratados e leis federais, e a decisão do tribunal do Estado for contra ela e quando contestar a validade de leis ou de atos dos governos dos Estados em face da Constituição, ou das leis federais, e a decisão do tribunal do Estado considerar válidos esses atos, ou essas leis impugnadas. O art. 60, “a”, disse competir aos Juízes e Tribunais Federais processar e julgar as causas em que alguma das partes fundar a ação, ou a defesa, em disposição da Constituição Federal;
+15 “Um dos pontos de maior convergência das duas correntes era a disposição inarredável de introduzir o modelo federativo no País. Durante os cinco anos que antecederam o fim do império dois projetos de monarquia federativa foram oferecidos à Câmara, por Joaquim Nabuco; um em 1885, o outro em 1888.” Paulo BONAVIDES, Paes de ANDRADE, ob. cit., p. 208;
+16 Afonso Arinos de Melo FRANCO, ob. cit., p. 131;
+17 Paulo BONAVIDES, Paes de ANDRADE, ob. cit., p. 226;
+18 “Art 7º. É da comptência exclusiva da União decretar: 1º Impostos sobre a importação de procedência estrangeira; 2º Direitos de entrada, saída e estada de navios, sendo livre o comércio de cabotagem às mercadorias nacionais, bem como às estrangeiras que já tenham pago imposto de importação; 3º Taxas de selo, salvo a restrição do art. 9º, § 1º, nº 1; 4º Taxas de correios e telégrafos federais.”
+19 “A esta época, os litígios entre o particular e o Estado eram resolvidos pelos processos comuns. Por isso, havia a teoria que estendia o habeas-corpus a estes direitos e, também, a teoria da ‘posse dos direitos pessoais’, segundo a qual se concebiam os direitos do particular contra o Estado como passíveis de proteção possessória. (...) A teoria da posse foi derrotada nos tribunais e o alargamento da hipóteses de cabimento do habeas-corpus, eliminado pela reforma constitucional de 1926”. Teresa Celina de Arruda Alvim PINTO, Medida Cautelar, Mandado de Segurança e Ato Judicial, p. 16;
+20 Afonso Arinos de Melo FRANCO, ob. cit., p. 164;
+21 Eram seguintes os princípios a que se referia o texto: a forma republicana, o regime representativo, o governo presidencial, a independência e harmonia dos poderes, a temporariedade das funções e a responsabilidade dos funcionários, a autonomia dos Municípios, a capacidade para ser eleitor ou elegível nos termos da Constituição, a não reeleição dos Presidentes e Governadores e, por fim, a possibilidade de reforma constitucional e a competência do Poder Legislativo para decretá-la. Cf. Paulo BONAVIDES, Paes de ANDRADE, ob. cit., p. 239;
+-->

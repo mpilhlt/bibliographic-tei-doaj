@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://hdl.handle.net/11168/11.542810">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Jedrkiewicz, Stefano: "Savant et Trickster: Thalès devant les pyramides", in: Lexis 18 (2000), pp. 77-91, https://hdl.handle.net/11168/11.542810</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 Découvertes géometriques attribuées è Thalès: Proci. in Eucl. 157. 10-11 Friedlein; ibid. 250. 20 — 251. 2; 299. 14 = Eudem. fr. 135 Wehrli; ibid. 352. 14-18 = Eudem. Fr. 134 Wehrli = Colli 10 B 6 a-d = 11 A 20 D.-K.; Procl. in Eucl. 65. 3-11 = Eudem. Fr. 133 Wehrli = Colli 10 B5=11A4 11 D.-K. Cf. Apul. Flor.18.37 = 11 A 19 D.-K.: Thales...geometriae penes Graios primus repertor.
+2 Pour ces deux conceptions opposées, voir C. J. Classen, s.v. Thales, RE, Suppl.10, 1965, 934-5; contra G. Colli, La sapienza greca, Il, Milano 1978, 285.
+3 C£ Xenoph. 21 B 19 D.-K., Heracl. 22 B 38 D.-K., Democr.68 B 115 a D.-K ap. Diog. L.1.23; Hdt. 1.74 = 11 A 5 D.-K.; Hdt. 1.75= 11 A6D.-K.; Aét. 4. 1. 1= 11 A 16 D.-K.
+4 Aristoph. Nub. 180 = Colli 10 A 7a; Aristoph. 4ves 1009; Plaut. Capt., 2. 2. 124; Rud.4. 3. 64; Bacch. 1. 2. 14. :
+5 Plat, resp. 600a.
+6 Aristot. Metaph. 983b. 6 ss. = 11 A 12 D.-K.; cf. J. Mansfeld, Aristotelesand others on Thales, or the beginnings of natural philosophy, Mnemosyne 38, 1985 = J. Mansfeld, Studies in the Historiography of Greek Philosophy, Assen - Maastricht 1990, 129-30.
+7 Voir note 1, et en plus: Dem. Phal. fr. 149 Wehrli ap. Diog. L. 1.22= 11 A 11 D.-K.; Eudem. Fr. 144 Webhrli ap. Diog. L. 1.23 = 11 A 11 D.-K.
+8 Classen, 934-35; S. Jedrkiewicz, Il convitato sullo sgabello: Plutarco, Esopo e i Sette Savi, Roma 1997, 15.
+9 Hieron. Rh. fr. 40 Wehrli ap. Diog. L. 1 .27; Plin. NH 36. 82 = 11 A 21 D.-K. (Thalès mesure umbra metiendo qua hora par esse corpori solet).
+10 M. Serres, Les origines de la géométrie, Paris 1993, 195; 200-01.
+l1 Selon G. $. Kirk - J. E. Raven - M. Schofield, The Presocratic Philosophers, Cambridge 19832, 85. Les ‘Iotogiai yewpetguai d'Eudèéme sont recueillies dans les fir.133-41 Webhrli.
+12 Voir note 1. Cf. D. R. Dicks, Thales, CQ 9, 1959, 303-05.
+13 Plut, Sept. Sap. Conv. 2, 147a = 11 A 21 D.-K. Sur la date: Jedrkiewicz, 29 et n. 42.
+14 Serres, 195.
+15 Plut. / c. Pour le BaupdLeiv envers Thalès, voir les témoignages de Xénophane, Héraclite, Démocrite, Hérodote, note 3.
+16 J. Hershbell, Plutarch and the Milesian Philosophers, Hermes 114, 1986, 180.
+17 Jedrkiewicz, en part. 15-21, 140-48.
+18 Heérodote ne mentionne jamais Thalès dans le Livre Il des Histoires, méme pas lorsqu’il énonce (2. 20) la théorie (douteuse) d’origine grecque sur les cràes du Nil qui lui sera plus tard associée (Aét. 4. 1. 1= 11 A 16 D.-K.).
+19 Voir R. Casati, La scoperta dell’ombra, Milano 2000, 98-100. Cette contradiction, qui enlève tout intérét aux procédures attribuées à Thalès, passe généralement inapergue: cf. par ex. J. Burnet, Early Greek Philosophy, London 1930, 45 ss.; W. K. C. Guthrie, A History of Greek Philosophy, 1, Cambridge 1962, 53; Kirk — Raven — Schofield, 85.
+20 Thalés, élève des Egyptiens en géométrie: Eudem. Fr. 133 Wehrli ap. Proci. in Eucl. 65, 3= 11 A 11 D.-K.; Pamphila fr. 1, FHG II 520, ap. Diog. L. 1. 24; Diog. L. 1. 27; schol. Plat. in Remp. 600a = 11 A 11 D.-K. Cf. Kirk — Raven — Schofield, 85: «Thales might conceivably have learned this [Comment mesurer la hauteur] from the Egyptians».
+21 Voir E. Zeller - R. Mondolfo, La filosofia dei Greci, 1.2, Firenze 1953, 107-08 (avec renvois).
+22 Hdt. 2. 148. 3.
+23 Diod, Sic. 1. 63. 7.
+24 Hdt. 2. 124; 126-27. 1.
+25 Hygin. Fab. 223. 7; Solinus, Collectanea Rerum Memorabilium 32. 44; Ammian. Marc., Hist. 22. 15. 29: cités par W. Helck, s.v. Pyramiden, RE 23. 2, 1959, 2273-274.
+26 Hdt. 1. 74; Eudem. Fr. 143 Wehrli; A&. 4. 1. 1= 11 A 16 D.-K.
+27 G. Colli, Dopo Nietzsche, Milano 1978, 143-44; P. Pucci, Erigma segreto oracolo, Roma 1996, 19-29.
+28 Sur les énigmes du superlatif, Jedrkiewicz, 44-46, 68-70; pour Thalès, Plut. Sept. Sap. Conv. 8-9. 153a - d; Diog. L, 1. 37.
+29 Aristot. de anima, 405 a 19 = 11 A 22 D.-K.
+30 Plut. Sept. Sap. Conv. 3. 149 c-f.
+31 Aristot, Metaph. 983b. 6 ss. = 11 A 12 D.-K.
+32 Hdt, 1. 74; cf. 1. 91. 4; 8. 136. 3; tous cités par M.- L. Freyburger Thalès, astrologue ou astronome?, in Les Astres, Actes du Colloque International (Montpellier, 23-25 Mars 1995), edd. R. Bakhouche - M. Moreau - J. - C. Turpin, Montpellier 1996, 272-73.
+33 Aristot. Pol, 1259a. 5-18 = 11 A 10 D.-K.
+34 Plut. Vita Sol. 12. 11.
+35 D. E. Aune, Septem Sapientium Convivium, in Plutarch's ethical writings and early Christian literature, ed. H. D. Bieltz, Leiden 1978, 84. Sur le contraste folklorique «sage-puissant», S. Jedrkiewicz, Sapere e paradosso nell'Antichità: Esopo e la favola, Roma 1989, 143-47.
+36 Hesiod. fr. 278 Merkelbach-West; Pherec.Ath. fr. 142 Jacoby = Colli 7A 1.
+37 Diog. L. 1. 37.
+38 Aristot. de Caelo, 294 a 28; Simpl. de Cael. 522. 14 = 11 A 14 D.-K.
+39 Plut. de soll. anim., 16. 971 b-c, où Thaiès, tout en étant respectueusement désigné come «le plus ancien des sophoi», ne dédaigne nullement rivaliser avec un animal en cogia et navovgyia; cf. Ael. N. A.7.42,
+40 Piut. Vita Sol. 6; cf. Jedrkiewicz, Il convitato, 77. Enigme, tromperie et mort: G. Colli, La nascita della filosofia, Milano 1975, 61-63.
+41 Piat. Theaet. 174 a.
+42 Thalès change le cours du fleuve Halys: Hdt. 1. 75; cf. Diog. L. 1. 38
+43 Deécouvertes astronomiques attribuées à Thalès: Callim. fr. 191 P£, 34 ( 11 A 3a D.-K.), Eudem. fr. 144 Wehrli ap. Diog. L. 1.23; Diog. L. 1.24 ; Suidas, s.v. Baîjg = 11 A 2 D.-K; schol. Plat. in Remp. 600a = 11 A 3 D.-K; Aét. 2. 12. 1= 11 A 13c D.-K; Dercyllides ap. Theon. astr. 198 14 H. = 11 A 17 D.-K; Aét: 2. 13. 1 e27. 5= 11 A 17a, b D.-K; Plin. NH 18. 213= 11 A 18 D.-K; Apul. Flor. 18. 37. 10= 11 A 19 D.-K.; schol, Arat. 172 p. 369, 24= 11 B 2 D.-K.
+44 Le terme trickster, qui est une abstraction anthropologique, n’a pas de définition univoque; il implique toutefois nombre de traits, apparamment contradictoires mais en réalité cohérents, qui sont aussi bien propres au personnage de Thalès en tant que sophos, et sont ceux indiqués dans le texte: élargisseur de ‘biens culturels’ et de nouvelles possibilité de compréhension et de savoir, actif dans les domaines du surhumain, de l’humain et de l’animal; porté à l’agonisme, la tricherie, la raillerie; vulnérable au renversement qui expose au ridicule; capable de solutions surprenantes et inattendues, qui changent la vision du monde courante. Il sera permis de ne renvoyer qu’à un seul ouvrage récent, qui examine cette figure dans toute sa complexité: Mythical Trickster Figures. Contours, Contexts, and Criticisms, edd. W. J. Hynes - W. G. Doty, Tuscaloosa — London, 1993.
+45 Plat. resp. 600a: eis tà Egya oopoù dvdgòg noAhai tmivolai rai edpijxavoi elg tExvag f] tuwvag dilas rgdEews Méyovtat.
+46 La mule: fab. 265 Chambry = 180 Perry = 191 Hausrath; cf. Babr. 111; l’astrologue dans le puits: fab. 40 Perry = 40 Hausrath = 65 Chambry; le centaure: Ph. 3. 3. La source de l'agon avec Solon est Hermippe de Smyrne (fr. 10 Wehrli), qui dit la tenir de «Pataikos», réincarnation d’Esope: c’est donc, à ce titre, une «histoire èsopique» (cf. Jedrkiewicz, Il convitato, 103-04).
+47 Serres, 196, qui cite Auguste Comte: une telle démarche, qui seule permet d’atteindre des grandeurs inaccessibles empiriquement, est fondamentale dans la formation de la science mathématique.
+48 Comme le souligne Serres, 198, le «spectacle» est inhérent à l’élaboration mentale de Thalès.
+49 Pamphila fr. 1, FHG Ill 520, ap. Diog. L. 1. 24 (11 A 11 D.-K.) = Colli 10 B 24. Attribution du geste à Pythagore: Plut. non posse suaviter..., 11. 1094 b 2-7; Athen. 10. 13. 418 f; Diog. L. 8. 12; Porph. Vita Pyth. 36.
+50 Pour la gestualité, chez les Sept Sages en particulier, voir R. P. Martin, «The Seven Sages as performers of wisdom», in Cultural Politics in Ancient Greece, edd. P. Dougherty - L. Kurke, Oxford, 1998, 116 (avec indications bibliographiques); chez Plutarque,T. Reckmans, Non-verbal Jesting in Plutarch's ‘Lives', in Plutarchea Lovanensia, A miscellany of essays on Plutarch, ed. L. van der Stockt, Louvain 1996, 227-41.
+51 S. Mazzarino, /I pensiero storico classico, Bari 1974, 145.
+52 C£. Aristot. Pol. 1284a. 17; 1311a. 13 (r6les invertis entre les deux tyrans); D. H. Ant. Rom. 4. 56. 1-2; Liv. ab U. c., ì. 54 (protagonistes: les deux Tarquins); Plut. Sepr. Sap. Conv. 2. 147 c-d.
+53 Callim. Jamb. I, fr. 191. 52-73 P£ = 11 A 3a D.-K. La reconstitution de Diels (qui propose qrjEag à la ligne 6) est particulièrement suggestive (voir son commentaire ad loc., 1, 74: «[avec son béton] Thales glittet den Boden, um die Figuren, die als Zcichen seiner cogia gedeutet werden konnten, zu vernichten»); le sens général du récit de Callimaque reste toutefois inchangé dans les reconstitutions proposées par d’autres éditeurs.
+54 Serres, 227.
+55 Cf. Ch. Perelman, L'empire rhétorique, Rhétorique et argumentation, Parìs 1977 = l dominio retorico, tr. it., Torino 1981, 25.
+56 Apul, Flor. 18.37. 10 = 11 A 19 D.-K.; schol. Plat. in Remp. 600a = 11 A 3 D.-K.
+57 Athen. 10. 452d-e; lambl. Vita Pyth. 18. 82-83; Procl. in Plat. Tim. 23c; Simpl. in Aristot. Phys. 184b. 15 = Colli 7B 3-4.
+58 On se reportera à ce sujet à la discussion, stimulante et réaliste, de G. E. R. Lloyd, The Revolutions of Wisdom, University of California Press, 1987, en part. 83-108. On pourra aussi avoir à l’esprit certaines méthodes «sophistiques» et agonistiques attestécs dans les expositions des mathématiciens grecs è l’époque hellénistique: cf. R. Wallace, What was Greek about Greek mathematics?, ICS _ 15, 1996, 82-89.
+59 M. Clarke, The wisdom of Thales and the problem of the word IEPOX, CQ 45, 1995, 297-98.
+-->

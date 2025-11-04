@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://www.ledonline.it/index.php/Rivista-diritto-romano/article/view/5453">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Purpura, Gianfranco: "Le nuove tecnologie informatiche applicate alla ricerca e allo studio del diritto romano e dei diritti dell’antichità", in: Rivista di Diritto Romano 1 (2001), https://www.ledonline.it/index.php/Rivista-diritto-romano/article/view/5453</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1) G. T RITEMIO, Elogio degli amanuensi, Palermo, 1997, p. 66.
+2) Se fossero state fondate le pessimistiche previsioni per i libri stampati di Tritemio, non solo la cultura moderna sarebbe stata diversa, ma anche Francesco Amarelli, appassionato bibliofilo che ringrazio vivamente per l’invito a questo incontro, non avrebbe potuto riunire i formidabili campioni della sua biblioteca, ove appaiono esemplari cartacei di quattro o cinquecento anni. Senza, poi, il valido aiuto del tecnico Eraldo Coscia dell’Università Federico II di Napoli non avrei potuto mettere a punto gli strumenti, dei quali oggi mi avvalgo.
+3) Antico graffito romano riferito da R. D’ANNA , E-Book: Il libro a una dimensione, Roma, 2001, p. 11.
+4) «G.U.» della Comunità Europea del 9 giugno 2001.
+5) Pubblicato intorno al 16 dicembre 1999, il testo dell’editto, sottoposto ad una cura secunda, appare ora nella banca dati epigrafica di Heidelberg («EDH.») con il numero di registrazione: HD 033614.
+6) Altri tempi, se si ricorda l’esasperante lentezza impiegata nella pubblicazione della «Tabula Banasitana». Cfr. F. M ILLAR, Epigrafia, in M. CRAWFORD , E. G ABBA , F. M ILLAR, A. S NODGRASS, Le basi documentarie della storia antica, Bologna, 1984, p. 108 ss. Il nuovo editto è stato pubblicato da F. COSTABILE, O. LICANDRO, Tessera Paemeiobrigensis, Un nuovo editto di Augusto dalla Transduriana Provincia e l’imperium proconsulare del princeps, Roma, 2000: cfr. A. G UARINO, Trucioli di bottega, V, Napoli, 2001, p. 29 ss.
+7) G. A LFÖLDI, Il nuovo editto di Augusto da El Bierzo in Spagna, in «Minima Epigraphica et Papyrologica» («MEP.»), IV, 2001, 6, p. 366 ss.
+8) Dubita dell’autenticità dell’editto P. LE ROUX , L’Edictum de Paemeiobrigensibus. Un document fabriqué?, in «MEP.», IV, 2001, 6, p. 331-361. A LFÖLDI (op. cit., p. 365-418), F. COSTABILE (Addendum alla Tessera Paemeiobrigensis, «MEP.», IV, 2001, 6, p. 419- 431) ed O. LICANDRO (Ancora sul proconsolato del principe alla luce della documentazione epigrafica, ivi, p. 433- 445) propendono per la genuinità. A prescindere dalle valutazioni tecniche sulle analisi chimico-fisiche, certamente decisive per la genuinità, sembra significativa l’osservazione di COSTABILE (op. cit., p. 421) sulla presunta anomalia nella tessera dell’indicazione del nono anno di potestà tribunizia per il febbraio del 15 a.C. (in realtà, l’ottavo). Potrebbe non trattarsi di un errore, come da tutti ritenuto, ma semplicemente del fatto che il primo anno si sia computato dal 26 giugno dell’anno 23 a.C., primo conferimento della potestà tribunizia, al 31 dicembre del medesimo anno: «in tal caso la nona tribunicia potestas cadrebbe esattamente nel febbraio del 15 ed il testo epigraficamente trádito andrebbe dunque rispettato». E’ evidente che un’eventualità di tal genere potrebbe contribuire efficacemente ad autenticare il reperto.
+9) Su tali banche dati cfr. L. MAGGIO, Edizione informatica delle fonti epigrafiche e papirologiche del diritto romano, in «MEP.», IV, 2001, 5, p. 111-130.
+10) MAGGIO, op. cit., p. 118 ss. Cfr. D. 30.1.8.2 che presenta ad esempio un’intera linea di scrittura duplicata (l. 5).
+11) Apul., met. 9.5.12.
+12) V. A RANGIO-RUIZ, Frammenti di Ulpiano, Libro 32 ad edictum, in una pergamena di provenienza egiziana, in Studi Epigrafici e Papirologici, Napoli, 1974, p. 463-478; ID ., Di nuovo sul frammento di Ulpiano in PSI. 1449 R, ivi, p. 591-604; G. PURPURA , Diritto, papiri e scrittura, Torino, 1999, p. 128-130.
+13) B. A LBANESE, PSI XIV, 1449 (Ulp. 32 ad edictum) e le testimonianze ulpianee già note, in «Studi B. Biondi», I, Milano, 1965, p. 167-186 = Scritti giuridici, I, Palermo, 1991, p. 387-406.
+14) Da parte di Giovanna Menci dell’ «Istituto Papirologico G. Vitelli» di Firenze, che ha utilizzato il programma «Macromedia Fontographer».
+15) D’ANNA , E-Book, cit., p. 65 e 73.
+16) D’ANNA , op. cit., p. 56.
+-->

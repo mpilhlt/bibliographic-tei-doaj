@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+           ../../schema/xsd/dataset.xsd"
+         source="https://doi.org/10.12946/rg01/232-236">
+   <title>Legal-Historical article with footnotes/marginal notes (Rg 1/2002, 232-236; https://doi.org/10.12946/rg01/232-236</title>
+   <description content-type="text/html"><![CDATA[ 
+    <p>Source: Kent Lerch: "Kreuz des Nordens", in: Rechtsgeschichte Rg 1 (2002), pp. 232–236, DOI:10.12946/rg01/232-236</p>
+  ]]></description>
+  <instance xml:id="instance-1">
+      <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+      <input type="raw"><![CDATA[1 Paul L. Nève, Europäisches Ius Commune und (nationales) Gemeines Recht: Verwechslung von Begriffen?, in: Wirkungen europäischer Rechtskultur. Festschrift für Karl Kroeschell zum 70. Geburtstag, Munich 1997, pp. 871–884.]]></input>
+      <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="1"
+               type="footnote"
+               place="bottom">
+          <label>1</label>
+          <bibl>Paul L. Nève, Europäisches Ius Commune und (nationales) Gemeines Recht: Verwechslung von Begriffen?, in: Wirkungen europäischer Rechtskultur. Festschrift für Karl Kroeschell zum 70. Geburtstag, Munich 1997, pp. 871–884</bibl>.
+        </note>
+      </output>
+      <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+          n="1"
+          type="footnote"
+          place="bottom">
+          <label>1</label>
+          <bibl xml:id="bibl-1">
+            <author>
+              <persName>
+                <forename full="yes">Paul L.</forename>
+                <surname>Nève</surname>
+              </persName>
+            </author>,
+            <title level="a">Europäisches Ius Commune und (nationales) Gemeines Recht: Verwechslung von Begriffen?</title>, in:
+            <title level="m">Wirkungen europäischer Rechtskultur. Festschrift für Karl Kroeschell zum 70. Geburtstag</title>,
+            <pubPlace>Munich</pubPlace>
+            <date>1997</date>,
+            <biblScope unit="page" from="871" to="884">pp. 871–884</biblScope>
+          </bibl>.
+        </note>
+      </output>
+      <output type="biblstruct">
+        <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+          <biblStruct source="#bibl-1">
+            <analytic source="#bibl-1">
+              <title level="a">Europäisches Ius Commune und (nationales) Gemeines Recht: Verwechslung von Begriffen?</title>
+              <author>
+                <persName>
+                  <forename full="yes">Paul L.</forename>
+                  <surname>Nève</surname>
+                </persName>
+              </author>
+            </analytic>
+            <monogr source="#bibl-1">
+              <title level="m">Wirkungen europäischer Rechtskultur. Festschrift für Karl Kroeschell zum 70. Geburtstag</title>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Munich</pubPlace>
+              </imprint>
+              <biblScope unit="page" from="871" to="884">871-884</biblScope>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </output>
+      <output type="resolved-biblstruct">
+        <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+          <biblStruct source="#bibl-1">
+            <analytic source="#bibl-1">
+              <title level="a">Europäisches Ius Commune und (nationales) Gemeines Recht: Verwechslung von Begriffen?</title>
+              <author>
+                <persName>
+                  <forename full="yes">Paul L.</forename>
+                  <surname>Nève</surname>
+                </persName>
+              </author>
+            </analytic>
+            <monogr source="#bibl-1">
+              <title level="m">Wirkungen europäischer Rechtskultur. Festschrift für Karl Kroeschell zum 70. Geburtstag</title>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Munich</pubPlace>
+              </imprint>
+              <biblScope unit="page" from="871" to="884">871-884</biblScope>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </output>
+  </instance>
+  <instance xml:id="instance-2">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote marked with asterisk</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[* History of Private Law in Scotland, hg. von Kenneth Reid und Reinhard Zimmermann, Vol. I: Introduction and Property, Vol. II: Obligations, Oxford: Oxford University Press 2000, Vol. I: lxi, 552 S.; Vol. II: lxxviii, 748 S., ISBN 0-19-829941-9.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="*"
+        type="footnote"
+        place="bottom">
+        <label>*</label>
+        <bibl>History of Private Law in Scotland, hg. von Kenneth Reid und Reinhard Zimmermann, Vol. I: Introduction and Property, Vol. II: Obligations, Oxford: Oxford University Press 2000, Vol. I: lxi, 552 S.; Vol. II: lxxviii, 748 S., ISBN 0-19-829941-9</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="*"
+        type="footnote"
+        place="bottom">
+        <label>*</label>
+        <bibl xml:id="bibl-2">
+          <title level="m">History of Private Law in Scotland</title>, hg. von
+          <editor>
+            <persName>
+              <forename full="yes">Kenneth</forename>
+              <surname>Reid</surname>
+            </persName>
+          </editor> und
+          <editor>
+            <persName>
+              <forename full="yes">Reinhard</forename>
+              <surname>Zimmermann</surname>
+            </persName>
+          </editor>
+          <title level="m" type="volume" n="vol1" xml:id="bibl-2-vol1">Vol. I: Introduction and Property</title>,
+          <title level="m" type="volume" n="vol2" xml:id="bibl-2-vol2">Vol. II: Obligations</title>,
+          <pubPlace>Oxford</pubPlace>:
+          <publisher>Oxford University Press</publisher>
+          <date>2000</date>,
+          <extent corresp="#bibl-2-vol1">Vol. I: lxi, 552 S.</extent>
+          <extent corresp="#bibl-2-vol2">Vol. II: lxxviii, 748 S.</extent>,
+          <idno type="ISBN">ISBN 0-19-829941-9</idno>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-2">
+          <monogr>
+            <title level="m">A History of Private Law in Scotland</title>
+            <title level="m" type="volume" n="vol1" xml:id="biblstruct-2-vol1">Vol. I: Introduction and Property</title>
+            <title level="m" type="volume" n="vol2" xml:id="biblstruct-2-vol2">Vol. II: Obligations</title>
+            <editor>
+              <persName>
+                <forename full="yes">Kenneth</forename>
+                <surname>Reid</surname>
+              </persName>
+            </editor>
+            <editor>
+              <persName>
+                <forename full="yes">Reinhard</forename>
+                <surname>Zimmermann</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <publisher>Oxford University Press</publisher>
+              <date>2000</date>
+              <pubPlace>Oxford</pubPlace>
+            </imprint>
+            <biblScope unit="volume" from="2" to="2">2</biblScope>
+            <extent corresp="#biblstruct-2-vol1">lxi, 552</extent>
+            <extent corresp="#biblstruct-2-vol2">lxxviii, 748</extent>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-2">
+          <monogr>
+            <title level="m">A History of Private Law in Scotland</title>
+            <title level="m" type="volume" n="vol1" xml:id="res-biblstruct-2-vol1">Vol. I: Introduction and Property</title>
+            <title level="m" type="volume" n="vol2" xml:id="res-biblstruct-2-vol2">Vol. II: Obligations</title>
+            <editor>
+              <persName>
+                <forename full="yes">Kenneth</forename>
+                <surname>Reid</surname>
+              </persName>
+            </editor>
+            <editor>
+              <persName>
+                <forename full="yes">Reinhard</forename>
+                <surname>Zimmermann</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <publisher>Oxford University Press</publisher>
+              <date>2000</date>
+              <pubPlace>Oxford</pubPlace>
+            </imprint>
+            <biblScope unit="volume" from="2" to="2">2</biblScope>
+            <extent corresp="#res-biblstruct-2-vol1">lxi, 552</extent>
+            <extent corresp="#res-biblstruct-2-vol2">lxxviii, 748</extent>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-3">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[1 Walter Ross, Lectures on the History and Practice of the Law of Scotland Relative to Conveyancing and Legal Diligence, Edinburgh 1792, xvii.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="1"
+        type="footnote"
+        place="bottom">
+        <label>1</label>
+        <bibl>Walter Ross, Lectures on the History and Practice of the Law of Scotland Relative to Conveyancing and Legal Diligence, Edinburgh 1792, xvii</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="1"
+        type="footnote"
+        place="bottom">
+        <label>1</label>
+        <bibl xml:id="bibl-3">
+          <author>
+            <persName>
+              <forename full="yes">Walter</forename>
+              <surname>Ross</surname>
+            </persName>
+          </author>,
+          <title level="m">Lectures on the History and Practice of the Law of Scotland Relative to Conveyancing and Legal Diligence</title>,
+          <pubPlace>Edinburgh</pubPlace>
+          <date>1792</date>,
+          <citedRange from="xvii" to="xvii">xvii</citedRange>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-3">
+          <monogr>
+            <title level="m">Lectures on the History and Practice of the Law of Scotland Relative to Conveyancing and Legal Diligence</title>
+            <author>
+              <persName>
+                <forename full="yes">Walter</forename>
+                <surname>Ross</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1792</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="xvii" to="xvii">xvii</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-3">
+          <monogr>
+            <title level="m">Lectures on the History and Practice of the Law of Scotland Relative to Conveyancing and Legal Diligence</title>
+            <author>
+              <persName>
+                <forename full="yes">Walter</forename>
+                <surname>Ross</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1792</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="xvii" to="xvii">xvii</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-4">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[2 Thomas MacKay Cooper, Select Scottish Cases of the Thirteenth Century, Edinburgh 1944, lxi.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="2"
+        type="footnote"
+        place="bottom">
+        <label>2</label>
+        <bibl>Thomas MacKay Cooper, Select Scottish Cases of the Thirteenth Century, Edinburgh 1944, lxi</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="2"
+        type="footnote"
+        place="bottom">
+        <label>2</label>
+        <bibl xml:id="bibl-4">
+          <author>
+            <persName>
+              <forename full="yes">Thomas MacKay</forename>
+              <surname>Cooper</surname>
+            </persName>
+          </author>,
+          <title level="m">Select Scottish Cases of the Thirteenth Century</title>,
+          <pubPlace>Edinburgh</pubPlace>
+          <date>1944</date>,
+          <citedRange from="lxi" to="lxi">lxi</citedRange>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-4">
+          <monogr>
+            <title level="m">Select Scottish Cases of the Thirteenth Century</title>
+            <author>
+              <persName>
+                <forename full="yes">Thomas MacKay</forename>
+                <surname>Cooper</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1944</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="lxi" to="lxi">lxi</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-4">
+          <monogr>
+            <title level="m">Select Scottish Cases of the Thirteenth Century</title>
+            <author>
+              <persName>
+                <forename full="yes">Thomas MacKay</forename>
+                <surname>Cooper</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1944</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="lxi" to="lxi">lxi</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-5">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[3 Thomas Broun Smith, The Common Law Cuckoo, in: Thomas Broun Smith, Studies Critical and Comparative, Edinburgh 1962, 89.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="3"
+        type="footnote"
+        place="bottom">
+        <label>3</label>
+        <bibl>Thomas Broun Smith, The Common Law Cuckoo, in: Thomas Broun Smith, Studies Critical and Comparative, Edinburgh 1962, 89</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="3"
+        type="footnote"
+        place="bottom">
+        <label>3</label>
+        <bibl xml:id="bibl-5">
+          <author>
+            <persName>
+              <forename full="yes">Thomas Broun</forename>
+              <surname>Smith</surname>
+            </persName>
+          </author>,
+          <title level="a">The Common Law Cuckoo</title>, in:
+          <author>
+            <persName>
+              <forename full="yes">Thomas Broun</forename>
+              <surname>Smith</surname>
+            </persName>
+          </author>,
+          <title level="m">Studies Critical and Comparative</title>,
+          <pubPlace>Edinburgh</pubPlace>
+          <date>1962</date>,
+          <citedRange from="89" to="89">89</citedRange>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-5">
+          <analytic>
+            <title level="a">The Common Law Cuckoo</title>
+            <author>
+              <persName>
+                <forename full="yes">Thomas Broun</forename>
+                <surname>Smith</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Studies Critical and Comparative</title>
+            <imprint>
+              <date>1962</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="89" to="89">89</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-5">
+          <analytic>
+            <title level="a">The Common Law Cuckoo</title>
+            <author>
+              <persName>
+                <forename full="yes">Thomas Broun</forename>
+                <surname>Smith</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Studies Critical and Comparative</title>
+            <imprint>
+              <date>1962</date>
+              <pubPlace>Edinburgh</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange from="89" to="89">89</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-6">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[4 Siehe hierzu etwa die Debatte zwischen Alan Rodger, Roman Law in Practice in Britain, in: RJ 12 (1993) 261–271 und Robin Evans-Jones, Roman Law in Britain (sic) Scotland, in: RJ 13 (1994) 494–505.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0" n="4" type="footnote" place="bottom">
+        <label>4</label>
+        Siehe hierzu etwa die Debatte zwischen
+        <bibl>Alan Rodger, Roman Law in Practice in Britain, in: RJ 12 (1993) 261–271</bibl> und <bibl>Robin Evans-Jones, Roman Law in Britain (sic) Scotland, in: RJ 13 (1994) 494–505</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="4"
+        type="footnote"
+        place="bottom">
+        <label>4</label>
+        Siehe hierzu etwa die Debatte zwischen
+        <bibl xml:id="bibl-6a">
+          <author>
+            <persName>
+              <forename full="yes">Alan</forename>
+              <surname>Rodger</surname>
+            </persName>
+          </author>,
+          <title level="a">Roman Law in Practice in Britain</title>, in:
+          <title level="j">RJ</title>
+          <biblScope unit="volume" from="12" to="12">12</biblScope>
+          (<date>1993</date>)
+          <biblScope unit="page" from="261" to="271">261–271</biblScope>
+        </bibl>
+        und
+        <bibl xml:id="bibl-6b">
+          <author>
+            <persName>
+              <forename full="yes">Robin</forename>
+              <surname>Evans-Jones</surname>
+            </persName>
+          </author>,
+          <title level="a">Roman Law in Britain (sic) Scotland</title>, in:
+          <title level="j">RJ</title>
+          <biblScope unit="volume" from="13" to="13">13</biblScope>
+          (<date>1994</date>)
+          <biblScope unit="page" from="494" to="505">494–505</biblScope>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-6a">
+          <analytic>
+            <title level="a">Roman Law in Practice in Britain</title>
+            <author>
+              <persName>
+                <forename full="yes">Alan</forename>
+                <surname>Rodger</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j" key="Rechtshistorisches Journal">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="261" to="271">261-271</biblScope>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-6b">
+          <analytic>
+            <title level="a">Roman Law in Britain (sic) Scotland</title>
+            <author>
+              <persName>
+                <forename full="yes">Robin</forename>
+                <surname>Evans-Jones</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j" key="Rechtshistorisches Journal">RJ</title>
+            <imprint>
+              <date>1994</date>
+            </imprint>
+            <biblScope unit="volume" from="13" to="13">13</biblScope>
+            <biblScope unit="page" from="494" to="505">494-505</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-6a">
+          <analytic>
+            <title level="a">Roman Law in Practice in Britain</title>
+            <author>
+              <persName>
+                <forename full="yes">Alan</forename>
+                <surname>Rodger</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="261" to="271">261-271</biblScope>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-6b">
+          <analytic>
+            <title level="a">Roman Law in Britain (sic) Scotland</title>
+            <author>
+              <persName>
+                <forename full="yes">Robin</forename>
+                <surname>Evans-Jones</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1994</date>
+            </imprint>
+            <biblScope unit="volume" from="13" to="13">13</biblScope>
+            <biblScope unit="page" from="494" to="505">494-505</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-7">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[5 Siehe Alan Rodger, Roman Law in Practice in Britain, in: RJ 12 (1993) 261–271, 271.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="5"
+        type="footnote"
+        place="bottom">
+        <label>5</label>
+        Siehe
+        <bibl>Alan Rodger, Roman Law in Practice in Britain, in: RJ 12 (1993) 261–271, 271</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="5"
+        type="footnote"
+        place="bottom">
+        <label>5</label>
+        Siehe
+        <bibl xml:id="bibl-7">
+          <author>
+            <persName>
+              <forename full="yes">Alan</forename>
+              <surname>Rodger</surname>
+            </persName>
+          </author>,
+          <title level="a">Roman Law in Practice in Britain</title>, in:
+          <title level="j">RJ</title>
+          <biblScope unit="volume" from="12" to="12">12</biblScope>
+          (<date>1993</date>)
+          <biblScope unit="page" from="261" to="271">261–271</biblScope>,
+          <citedRange from="271" to="271">271</citedRange>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-7">
+          <analytic>
+            <title level="a">Roman Law in Practice in Britain</title>
+            <author>
+              <persName>
+                <forename full="yes">Alan</forename>
+                <surname>Rodger</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="261" to="271">261-271</biblScope>
+          </monogr>
+          <citedRange from="271" to="271">271</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-7">
+          <analytic>
+            <title level="a">Roman Law in Practice in Britain</title>
+            <author>
+              <persName>
+                <forename full="yes">Alan</forename>
+                <surname>Rodger</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="261" to="271">261-271</biblScope>
+          </monogr>
+          <citedRange from="271" to="271">271</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-8">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[6 Siehe hierzu auch Friedrich Kübler, Traumpfade oder Holzwege nach Europa? Oder: Was wir uns von der Rechtsgeschichte wünschen sollten, in: RJ 12 (1993) 307–314.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="6"
+        type="footnote"
+        place="bottom">
+        <label>6</label>
+        Siehe hierzu auch
+        <bibl>Friedrich Kübler, Traumpfade oder Holzwege nach Europa? Oder: Was wir uns von der Rechtsgeschichte wünschen sollten, in: RJ 12 (1993) 307–314</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="6"
+        type="footnote"
+        place="bottom">
+        <label>6</label>
+        Siehe hierzu auch
+        <bibl xml:id="bibl-8">
+          <author>
+            <persName>
+              <forename full="yes">Friedrich</forename>
+              <surname>Kübler</surname>
+            </persName>
+          </author>,
+          <title level="a">Traumpfade oder Holzwege nach Europa? Oder: Was wir uns von der Rechtsgeschichte wünschen sollten</title>, in:
+          <title level="j">RJ</title>
+          <biblScope unit="volume" from="12" to="12">12</biblScope>
+          (<date>1993</date>)
+          <biblScope unit="page" from="307" to="314">307–314</biblScope>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-8">
+          <analytic>
+            <title level="a">Traumpfade oder Holzwege nach Europa? Oder: Was wir uns von der Rechtsgeschichte wünschen sollten</title>
+            <author>
+              <persName>
+                <forename full="yes">Friedrich</forename>
+                <surname>Kübler</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="307" to="314">307-314</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-8">
+          <analytic>
+            <title level="a">Traumpfade oder Holzwege nach Europa? Oder: Was wir uns von der Rechtsgeschichte wünschen sollten</title>
+            <author>
+              <persName>
+                <forename full="yes">Friedrich</forename>
+                <surname>Kübler</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">RJ</title>
+            <imprint>
+              <date>1993</date>
+            </imprint>
+            <biblScope unit="volume" from="12" to="12">12</biblScope>
+            <biblScope unit="page" from="307" to="314">307-314</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-9">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[* Reinhard Zimmermann, Roman Law, Contemporary Law, European Law. The Civilian Tradition Today, Oxford: Oxford University Press 2001, XX, 197 S., ISBN 0-19-829913-3]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="*"
+        type="footnote"
+        place="bottom">
+        <label>*</label>
+        <bibl>Reinhard Zimmermann, Roman Law, Contemporary Law, European Law. The Civilian Tradition Today, Oxford: Oxford University Press 2001, XX, 197 S., ISBN 0-19-829913-3</bibl>
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+        n="*"
+        type="footnote"
+        place="bottom">
+        <label>*</label>
+        <bibl xml:id="bibl-9">
+          <author>
+            <persName>
+              <forename full="yes">Reinhard</forename>
+              <surname>Zimmermann</surname>
+            </persName>
+          </author>,
+          <title level="m">Roman Law, Contemporary Law, European Law. The Civilian Tradition Today</title>,
+          <pubPlace>Oxford</pubPlace>:
+          <publisher>Oxford University Press</publisher>
+          <date>2001</date>,
+          <extent>XX, 197 S.</extent>,
+          <idno type="ISBN">ISBN 0-19-829913-3</idno>
+        </bibl>
+      </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-9">
+          <monogr>
+            <title level="m">Roman Law, Contemporary Law, European Law. The Civilian Tradition Today</title>
+            <author>
+              <persName>
+                <forename full="yes">Reinhard</forename>
+                <surname>Zimmermann</surname>
+              </persName>
+            </author>
+            <imprint>
+              <publisher>Oxford University Press</publisher>
+              <date>2001</date>
+              <pubPlace>Oxford</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-9">
+          <monogr>
+            <title level="m">Roman Law, Contemporary Law, European Law. The Civilian Tradition Today</title>
+            <author>
+              <persName>
+                <forename full="yes">Reinhard</forename>
+                <surname>Zimmermann</surname>
+              </persName>
+            </author>
+            <imprint>
+              <publisher>Oxford University Press</publisher>
+              <date>2001</date>
+              <pubPlace>Oxford</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+</dataset>

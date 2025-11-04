@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://www.anci.ch/articles/ancilla2014_7_seibert.pdf">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Seibert, Thomas-Michael: "Das Zeichen als Form und die Form des Rechtszeichens/The Sign as Form and the Form of the Law Sign", in: Ancilla Iuris. International Law and Ethics (anci.ch) (2014), pp. 7-39, https://www.anci.ch/articles/ancilla2014_7_seibert.pdf</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 Niklas Luhmann, Zeichen als Form, in: Dirk Baekker (ed.), Probleme der Form (Frankfurt a.M. 1993), 45–69, 49.
+2 Niklas Luhmann, Legitimation durch Verfahren (Neuwied 1969).
+3 Niklas Luhmann, Die Rückgabe des zwölften Kamels: Zum Sinn einer soziologischen Analyse des Rechts, Zeitschrift für Rechtssoziologie 21 (2000), 3–60.
+4 Niklas Luhmann, Zeichen als From, in: Dirk Baekker (ed.), Probleme der Form (Frankfurt a.M. 1993), 53.
+5 Bayerisches Oberstes Landesgericht im Rechtsprechungsreport der Neuen Juristischen Wochenschrift (NJW‐RR) 9 (1989).
+6 Michel Serres, Der Parasit (Frankfurt a.M. 1981), 97.
+7 Jean‐Marc Bassetti pour Toiles‐sur‐mer.com, http://www.lafontaine.net/lesFables/afficheFable.php?id=9, und Arne‐Wigand Baganz, http://www.versalia.de/archiv/de_la_Fontaine/Stadtratte_und_Landratte.1701.html, beide gesehen am 16. Dezember 2013.
+8 Michel Serres, Der Parasit (Frankfurt a.M. 1981), 17.
+9 Matthias Kronenberger, Der Parasit der Überzeugungsbildung (Berlin 2010), 10.
+10 Niklas Luhmann, Die Rückgabe des zwölften Kamels: Zum Sinn einer soziologischen Analyse des Rechts, Zeitschrift für Rechtssoziologie 21 (2000), 45.
+11 Malte‐Christian Gruber, Rechtsschutz für nicht‐menschliches Leben: der moralische Status des Lebendigen und seine Implementierung in Tierschutz‐, Naturschutz‐ und Umweltrecht (Baden‐Baden 2006).
+12 Bruno Latour, Politics of Nature: How to bring the sciences into democracy (Cambridge/Massachusetts 2004).
+13 Christine Danziger, Die Medialisierung des Strafprozesses: Eine Untersuchung zum Verhältnis von Medien und Strafprozess (Berlin 2009).
+14 Niklas Luhmann, Zeichen als Form, in: Dirk Baecker (ed.), Probleme der Form (Frankfurt a.M. 1993), 46.
+15 Nina Ort, Sinn und Unsinn in der Semiotik. Über Luhmanns Versuch, Klarstellungen zum semiotischen Zeichenbegriff zu leisten, Zeitschrift für Semiotik 32 (2010), 67–79, 71.
+16 C. S. Peirce, Excerpts from Letters to William James (L 224), in: Peirce Edition Project (ed.), The Essential Peirce, Vol. 2 (1998), 500.
+17 C. S. Peirce, Pragmatism (MS 318): “Thus, when a drill officer gives a company of infantry the word of the command, ‚Ground arms!‘, if this is really to act as a sign and not in a purely ‚physiological‘ way … there must first be, as in all actions of signs, a feeling‐interpretant, – a sense of apprehending the meaning, – which in its turn at once stimulates the soldiers to the slight effort required to perform the motion.“ in: Peirce Edition Project (ed.), The Essential Peirce, Vol. 2 (1998), 430.
+18 C. S. Peirce, How to Make Our Ideas Clear (1878) (P 119), in: N. Houser and C. Kloesel (ed.), The Essential Peirce, Vol. 1 (1992), 132.
+19 Niklas Luhmann, Soziale Systeme. Grundriß einer allgemeinen Theorie (Frankfurt a.M. 1984), 250.
+20 Ibid., 13: „Der Flug muß über den Woken stattfinden, und es ist mit einer ziemlich geschlossenen Wolkendecke zu rechnen. Man muß sich auf die eigenen Instrumente verlassen. Gelegentlich sind Durchblicke nach unten möglich – ein Blick auf Gelände mit Wegen, Siedlungen, Flüssen oder Küstenstreifen, die an Vertrautes erinnern; oder auch ein Blick auf die erloschenen Vulkane des Marxismus.“
+21 Niklas Luhmann, Zeichen als Form, in: Dirk Baecker (ed.), Probleme der Form (Frankfurt a.M. 1993), 53.
+22 Matthias Kronenberger, Der Parasit der Überzeugungsbildung (Berlin 2010), 113.
+23 Carl Schmitt, Politische Theologie (Berlin 1922), 38.
+24 Niklas Luhmann, Das Recht der Gesellschaft (Frankfurt a.M. 1993), 208.
+25 Thomas‐Michael Seibert, Gerichtsrede. Wirklichkeit und Möglichkeit im forensischen Diskurs (Berlin 1996), 242.
+26 Bayerisches Oberstes Landesgericht, Rechtsprechungsreport der Neuen Juristischen Wochenschrift NJW‐RR (1989), 9.
+27 Michel Serres, Der Parasit (Frankfurt a.M. 1981), 37.
+28 Carl Schmitt, Politische Theologie (Berlin 1922), 40.
+29 Niklas Luhmann, Das Recht der Gesellschaft (Frankfurt a.M. 1993), 338.
+30 Ibid.
+31 C. S. Peirce, Harvard Lecture on Pragmatism VI „The Nature of Meaning“, in: Peirce Edition Project (ed.), The Essential Peirce, Vol. 2 (1998), 208–225.
+32 C. S. Peirce, Nomenclature and Divisions of Triadic Relations, as Far as They Are Determined, in: Peirce Edition Project (ed.), The Essential Peirce, Vol. 2 (1998), 289–299.
+33 Siehe Roberta Kevelson, Peirce, Paradox, Praxis: The Image, the Conflict, and the Law (Berlin/New York 1991); Lorenz Schulz, Das rechtliche Moment in der pragmatischen Philosophie von Charles Sanders Peirce (Ebelsbach 1988); Ders., Semiotik und Recht. Zeichen im Recht und Recht der Zeichen. In: U. Wirth (ed.): Die Welt als Zeichen und Hypothese: Perspektiven des semiotischen Pragmatismus von Charles Sanders Peirce. (Frankfurt a.M. 2000); Joachim Lege: Pragmatismus und Jurisprudenz: Über die Philosophie des Charles Sanders Peirce und über das Verhältnis von Logik, Wertung und Kreativität im Recht (Tübingen 1999).
+34 G. Teubner/P. Zumbansen, Rechtsentfremdungen. Zum gesellschaftlichen Mehrwert des zwölften Kamels. Zeitschrift für Rechtssoziologie 21 (2000), 189–215.
+35 Niklas Luhmann, Das Recht der Gesellschaft (Frankfurt a.M. 1993), 340.
+36 Ibid.
+37 Ibid., 349.
+38 Ibid., 339.
+39 Was Derrida entwickelt: Jacques Derrida, Signature événement contexte, in: Ders., Marges de la Philosophie (Paris 1973), 365–393.
+40 Bayerisches Oberstes Landesgericht, Rechtsprechungsreport der Neuen Juristischen Wochenschrift NJW‐RR (1989), 9.
+41 Ibid.
+42 Niklas Luhmann, Soziale Systeme. Grundriss einer allgemeinen Theorie (Frankfurt a.M. 1984), 56f.
+43 Matthias Kronenberger, Der Parasit der Überzeugungsbildung (Berlin 2010), 112.
+44 Ibid., 37.
+45 Carl Schmitt, Politische Theologie (Berlin 1922), 37f.
+46 Niklas Luhmann, Zeichen als Form, in: Dirk Baecker (ed.), Probleme der Form (Frankfurt a.M. 1993), 52.
+47 Niklas Luhmann, Das Recht einer Gesellschaft (Frankfurt a.M. 1993), 219.
+48 So die musikalisch gewendete späte Fassung der pragmatischen Maxime bei Peirce „to avoid all danger of being understood as attempting to explain a concept by percepts, images, schemata, or by anything but concepts. I did not, therefore, mean to say that acts, which are more strictly singular than anything, could constitute the purport, or adequate proper interpretation, of any symbol. I compared action to the finale of the symphony of thought, belief being a demi‐cadence. Nobody conceives that the few bars at the end of a musical movement are the purpose of the movement. They may be called its upshot.“ (CP 5.402, 1906)
+49 C. S. Peirce, Of Reasoning in General, in: Peirce Edition Project (ed.), The Essential Peirce, Vol. 2 (1998), 13.
+50 Josef Simon, Philosophie des Zeichens (Berlin 1989), 293.
+51 Tilman Borsche, Rechtszeichen, in: Josef Simon (ed.), Distanz im Verstehen. Zeichen und Interpretation II, (Frankfurt a.M. 1995), 251.
+52 Thomas Sören Hoffmann, Jurisfiktion. Ein Beitrag zur Hermeneutik des Rechtsbegriffs, in: Josef Simon (ed.), Orientierung in Zeichen. Zeichen und Interpretation III (Frankfurt a.M. 1997), 97.
+53 Jean‐François Lyotard, Der Affekt‐Satz (Über einen Nachtrag zu „Der Widerstreit“), in: Ders., Das Elend in der Philosophie (Wien 2004), 47.
+54 C. S. Peirce. On Phenomenology. In: Ders. (Fn. 16), 150.
+55 Sodass Gunther Teubner Kafka neu erzählen kann: The Law before its law: Franz Kafka on the (Im‐) Possibility of Law’s Self‐Reflection – Das Recht vor seinem Gesetz: Franz Kafka zur (Un‐)Möglichkeit einer Selbstreflexion des Rechts. publication on www.anci.ch (18.07.2012).
+56 Niklas Luhmann, Sthenographie, in: Ders./Maturana/Namiki et. al., Beobachter. Konvergenz der Erkenntnistheorien (München 1990), 119–137.
+-->

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/10.13128/ds-18687">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Lynn Hunt: "Revolutionary Time and Regeneration", in: Diciottesimo Secolo 1/1 (2016), pp. 62-76, https://doi.org/10.13128/ds-18687</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!--
+1 P.F.N. Fabre d’Églantine, Rapport fait à la Convention nationale dans la séance du 3 du second mois de la seconde année de la République française, au nom de la Commission chargée de la confection du calendrier par P.F.N. Fabre-d’Eglantine, Imprimé par ordre de la Convention, Paris 1793, pp. 1-2.
+2 Ibidem, pp. 9-10.
+3 M. Shaw, Time and the French Revolution: The Republican Calendar, 1789-Year XIV, The Royal Historical Society and The Boydell Press, Rochester (NY) 2011; S. Bianchi, La bataille du calendrier ou le décadi contre le dimanche. Nouvelles approches pour la réception du calendrier républicain en milieu rural, «Annales historiques de la Révolution française», 312, 1998, pp. 245-264; S. Perovic, The Calendar in Revolutionary France: Perceptions of Time in Literature, Culture, Politics, Cambridge University Press, Cambridge 2012.
+4 L. Hunt, Politics, Culture, and Class in the French Revolution, University of California Press, Berkeley 1984, pp. 52-86; S. Bianchi, Les ‘prénoms révolutionnaires’ dans la révolution française : un chantier en devenir, «Annales historiques de la Révolution française», 322, 2000, pp. 17-38.
+5 G. Romme, Rapport sur l’ère de la République: séance du 10 septembre 1793, Imprimé par ordre de la Convention Nationale, Paris 1793, pp. 1-2.
+6 Révolutions de Paris, Dédiées à la Nation, vol. 2 (Du samedi 18 au 25 juillet 1789): pp. 1 and 7.
+7 C. Perroud (éd.), Lettres de Madame Roland, vol. 2: 1788-1793, Imprimerie nationale, Paris 1902, p. 325, Letter to Henry Bancal, 11 July 1792, Paris.
+8 «Le patriote f rançois», No. 63, Mercredi 7 octobre 1789, p. 3.
+9 K.M. Baker, Inventing the French Revolution: Essays on French Political Culture in the Eighteenth Century, Cambridge University Press, Cambridge 1990, p. 221.
+10 Répertoire universel et raisonné de jurisprudence civile, criminelle, canonique et bénéficiale, vol. 13, Chez Panckoucke, Paris 1777, p. 302; and vol. 48, Chez Panckoucke et Dupuis, Paris 1781, p. 13.
+11 Motion faite par un citoyen dans l’assemblée du district de Saint-Germain-des-Prés, le 21 avril 1789 : suppression de tous privilèges pour les élections, NP 1789, pp. 5-6.
+12 F.-A.-E. de Gourcy, Les droits et devoirs d’un peuple libre ou Le triomphe de la liberté française, Chez Dupain, Paris 1789, p. 48.
+13 J.-P. Marat, Dénonciation contre Necker, in Ch. Vellay (éd.), Les pamphlets – 1790, Libr. Charpentier et Fasquelle, Paris 1911, p. 92.
+14 Motion faite au district des Recollets, le 14 janvier 1790, sur la situation allarmante de
+la capital, relativement à la rareté extrême du numéraire, De l’imprimerie de P. Fr. Didot jeune, Paris 1790, p. 4.
+15 Second rapport du comité militaire, par M. Dubois de Crancé, secrétaire de l’Assemblée Nationale, sur l’établissement des milices nationales et le recrutement de l’armée, Chez Badouin, Paris 1789, p. 17.
+16 It comes up repeatedly, for example, in the work of R. Koselleck, Futures Past: On the Semantics of Historical Time, Engl. transl. by K. Tribe, Columbia University Press, New York 1985.
+17 <http://www.oed.com/view/Entry/120626?redirectedFrom=modernity#eid>(Consulted 13 November 2012).
+18 E.J. Sieyès, Qu’est-ce que le tiers état?, éd. par E. Champion, Au siège de la Société [de l’Histoire de la Révolution Française], Paris 1888, p. 79.
+19 L. Hunt, The World We Have Gained: The Future of the French Revolution, «The American Historical Review», 108, 2003, pp. 1-19.
+20 M. de Robespierre, Réponse de M. de Robespierre ... à une lettre de M. Lambert, contrôleur général des finances, De l’imp. de L. Potier de Lille, Paris 1790, p. 5.
+21 S. Luzzatto, Un futur au passé: La Révolution dans les Mémoires des Conventionnels, «Annales historiques de l a Révolution française», 278, 1989, pp. 455-475, quote 469.
+22 R. Wokler, Saint-Simon and the Passage from Political to Social Science, in A.R. Pagden (ed.), The Languages of Political Theory in Early-Modern Europe, Cambridge University Press, Cambridge 1990, pp. 325-338.
+23 Mémoire sur la faculté de penser [1798], ARTFL Electronic Edition, 2009, p. 26, <http://artflsrv02.uchicago.edu/cgibin/philologic/getobject.pl?c.1356:2:6:0:29.frantext0513.172648.172656>.
+24 M.S. Staum, Minerva’s Message: Stabilizing the French Revolution, McGill-Queen’s University Press, Montreal 1996.
+25 Rapport sur l’ouverture d’un concours pour les livres élémentaires de la première éducation, par Grégoire (Séance du 3 pluviôse an II), in M.J. Guillaume (éd.), Procès-verbaux du Comité d’instruction publique de la Convention nationale, vol. 3, Imprimerie nationale, Paris 1897, p. 365. The sense of a ‘mythic present’ of regeneration is discussed in Hunt, Politics, Culture, and Class in the French Revolution.
+26 P. Fritzsche, Stranded in the Present: Modern Time and the Melancholy of History, Harvard University Press, Cambridge (MA) 2004.
+27 Hegel was also deeply influenced by the Enlightenment and by the need to incorporate and surpass it in his philosophical system. L.P. Hinchman, Hegel’s Critique of the Enlightenment, University of Florida Press, Gainesville (FL) 1984.
+28 Koselleck, Futures Past, pp. 5, 47.
+29 Ibidem, p. 246. See also the excellent review by J. Zammito, Koselleck’s Philosophy of Historical Time(s) and the Practice of History, «History and Theory», 43, 2004, no. 1, pp. 124-135.
+30 Ibidem, p. 37.
+31 W.M. Nelson, The Weapon of Time: Constructing the Future in France, 1750-Year I, Ph.D. dissertation, UCLA, 2006. Id., Making Men: Enlightenment Ideas of Racial Engineering, «American Historical Review», 115, 2010, no. 5, pp. 1364-1394. 32 J.-J. Rousseau, Du contrat social, éd. par B. De Jouvenel, C. Bourquin, Geneva 1947, p. 235.
+33 É. Durkheim, The Elementary Forms of the Religious Life, Engl. transl. by J. Ward Swain, Macmillan, New York 1915 (original French version: 1912), p. 241.
+34 M. Ozouf, La fête révolutionnaire, 1789-1799, Gallimard, Paris 1976, p. 337. The title of her concluding chapter is La fête révolutionnaire: un transfert de sacralité. 35 «Journal des hommes libres de tous les pays», N o. 82, 22 January 1793.
+36 F. Hartog, Régimes d’historicité: présentisme et expériences du temps, Seuil, Paris 2003. On the differences between Hartog and Koselleck, see G. Lenclud, Traversées dans le temps, «Annales. Histoire, Sciences Sociales», 61, 2006, pp. 1053-1084.
+-->

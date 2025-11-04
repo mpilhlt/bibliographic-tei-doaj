@@ -1,0 +1,3235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+           ../../schema/xsd/dataset.xsd"
+         source="https://doi.org/10.12946/rg01/036-055">
+  <title>Legal-Historical article with footnotes/marginal notes (Rg 1/2002, 36-55; https://doi.org/10.12946/rg01/036-055</title>
+  <description content-type="text/html"><![CDATA[ 
+    <p>Source: Lorraine Daston: Baconsche Tatsachen, in: Rechtsgeschichte Rg 1 (2002), pp. 36-55, DOI:10.12946/rg01/036-055</p>
+  ]]></description>
+  <instance xml:id="instance-1">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="1"
+               type="footnote"
+               place="bottom">
+          <label>1</label>
+          <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="1"
+               type="footnote"
+               place="bottom">
+          <label>1</label>
+          <bibl xml:id="bibl-1">
+              <author>
+                <persName>
+                    <forename full="yes">Ludwig</forename>
+                    <surname>Wittgenstein</surname>
+                </persName>
+              </author>,
+              <title level="m">Tractatus logico-philosophicus</title>,
+              <pubPlace>London</pubPlace>
+              <date>1992</date>,
+              <citedRange unit="section" from="1.1" to="1.1">1.1</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-1">
+          <monogr>
+            <title level="m">Tractatus logico-philosophicus</title>
+              <author>
+                <persName>
+                    <forename full="yes">Ludwig</forename>
+                    <surname>Wittgenstein</surname>
+                </persName>
+              </author>
+              <imprint>
+                  <date>1992</date>
+                  <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+            <citedRange unit="section" from="1.1" to="1.1">1.1</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-1">
+          <monogr>
+            <title level="m">Tractatus logico-philosophicus</title>
+              <author>
+                <persName>
+                    <forename full="yes">Ludwig</forename>
+                    <surname>Wittgenstein</surname>
+                </persName>
+              </author>
+              <imprint>
+                  <date>1992</date>
+                  <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+            <citedRange unit="section" from="1.1" to="1.1">1.1</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-2">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[2 2 Vgl. die Artikel »Fact« im Oxford English Dictionary und »Thatsache« in Grimms Wörterbuch. Das Wort »T[h]atsache« scheint erstmals ins Deutsche eingeführt worden zu sein durch J. J. Spaldings Übersetzung von Bischof Joseph Butlers Schrift The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature, 1736: W. Halbfass, Tatsache I, in: Historisches Wörterbuch der Philosophie, hg. von Joachim Ritter und Karlfried Gründer, 10 Bde., Darmstadt 1971 ff., Bd. 10, St–T, Sp. 909–914.]]></input>
+    <output type="segmented-instance">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+          n="2"
+          type="footnote"
+          place="bottom">
+        <label>2</label>
+        Vgl. die Artikel
+        <bibl>»Fact« im Oxford English Dictionary</bibl>
+        und
+        <bibl>»Thatsache« in Grimms Wörterbuch</bibl>.
+        Das Wort »T[h]atsache« scheint erstmals ins Deutsche eingeführt worden zu sein durch
+        <bibl>J. J. Spaldings Übersetzung von Bischof Joseph Butlers Schrift The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature, 1736</bibl>: <bibl>W. Halbfass, Tatsache I, in: Historisches Wörterbuch der Philosophie, hg. von Joachim Ritter und Karlfried Gründer, 10 Bde., Darmstadt 1971 ff., Bd. 10, St–T, Sp. 909–914</bibl>.
+      </note>
+    </output>
+    <output type="bibl">
+      <note xmlns="http://www.tei-c.org/ns/1.0"
+         xml:id="note-2"
+         n="2"
+         type="footnote"
+         place="bottom">
+        <label>2</label>
+        Vgl. die Artikel
+        <bibl xml:id="bibl-2a">
+          »<title level="a">Fact</title>« im
+          <title level="m">Oxford English Dictionary</title>
+        </bibl>
+        und
+        <bibl xml:id="bibl-2b">
+          »<title level="a">Thatsache</title>« in
+          <title level="m">Grimms Wörterbuch</title>
+        </bibl>.
+        Das Wort »T[h]atsache« scheint erstmals ins Deutsche eingeführt worden zu sein durch
+        <bibl xml:id="bibl-2c">
+          <editor role="translator">
+              <persName>
+                  <forename full="init">J.J.</forename>
+                  <surname>Spalding</surname>
+              </persName>
+          </editor>s Übersetzung von
+          <author>
+            <persName>
+              <roleName>Bischof</roleName>
+              <forename full="yes">Joseph</forename>
+              <surname>Butler</surname>
+            </persName>
+          </author>s Schrift
+          <title level="m">The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature</title>,
+          <date>1736</date>
+        </bibl>:
+        <bibl xml:id="bibl-2d">
+          <author>
+            <persName>
+              <forename full="init">W.</forename>
+              <surname>Halbfass</surname>
+            </persName>
+          </author>,
+          <title level="a">Tatsache I</title>, in:
+          <title level="m">Historisches Wörterbuch der Philosophie</title>, hg. von
+          <editor>
+            <persName>
+                <forename full="yes">Joachim</forename>
+                <surname>Ritter</surname>
+            </persName>
+          </editor> und
+          <editor>
+            <persName>
+              <forename full="yes">Karlfried</forename>
+              <surname>Gründer</surname>
+            </persName>
+          </editor>,
+          <extent>10 Bde.</extent>,
+          <pubPlace>Darmstadt</pubPlace>
+          <date>1971 ff.</date>,
+          <biblScope unit="volume" from="10" to="10">Bd. 10, St–T</biblScope>,
+          <biblScope unit="column" from="909" to="914">Sp. 909–914</biblScope>
+        </bibl>.
+      </note>
+    </output>
+    <output type="biblstruct">
+     <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-2a">
+          <analytic>
+            <title level="a">Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+                <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2b">
+          <analytic>
+            <title level="a">Thatsache</title>
+          </analytic>
+          <monogr>
+            <title level="m">Grimms Wörterbuch</title>
+            <imprint>
+                <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2c">
+          <monogr>
+            <title level="m">The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature</title>
+            <author>
+              <persName>
+                <roleName>Bischof</roleName>
+                <forename full="yes">Joseph</forename>
+                <surname>Butler</surname>
+              </persName>
+            </author>
+            <editor role="translator">
+              <persName>
+                <forename full="init">J.J.</forename>
+                <surname>Spalding</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1736</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2d">
+          <analytic>
+            <title level="a">Tatsache I</title>
+            <author>
+              <persName>
+                <forename full="init">W.</forename>
+                <surname>Halbfass</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Historisches Wörterbuch der Philosophie</title>
+            <editor>
+              <persName>
+                <forename full="yes">Joachim</forename>
+                <surname>Ritter</surname>
+              </persName>
+            </editor>
+            <editor>
+              <persName>
+                <forename full="yes">Karlfried</forename>
+                <surname>Gründer</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <pubPlace>Darmstadt</pubPlace>
+              <date>1971 ff.</date>
+            </imprint>
+            <extent>10 Bde.</extent>
+            <biblScope unit="volume" from="10" to="10">Bd. 10, St–T</biblScope>
+            <biblScope unit="column" from="909" to="914">Sp. 909–914</biblScope>
+          </monogr>
+        </biblStruct>
+     </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+     <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-2a">
+          <analytic>
+            <title level="a">Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+                <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2b">
+          <analytic>
+            <title level="a">Thatsache</title>
+          </analytic>
+          <monogr>
+            <title level="m">Grimms Wörterbuch</title>
+            <imprint>
+                <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2c">
+          <monogr>
+            <title level="m">The Analogy of Religion, Natural and Revealed, to the Constitution and Course of Nature</title>
+            <author>
+              <persName>
+                <roleName>Bischof</roleName>
+                <forename full="yes">Joseph</forename>
+                <surname>Butler</surname>
+              </persName>
+            </author>
+            <editor role="translator">
+              <persName>
+                <forename full="init">J.J.</forename>
+                <surname>Spalding</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1736</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-2d">
+          <analytic>
+            <title level="a">Tatsache I</title>
+            <author>
+              <persName>
+                <forename full="init">W.</forename>
+                <surname>Halbfass</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Historisches Wörterbuch der Philosophie</title>
+            <editor>
+              <persName>
+                <forename full="yes">Joachim</forename>
+                <surname>Ritter</surname>
+              </persName>
+            </editor>
+            <editor>
+              <persName>
+                <forename full="yes">Karlfried</forename>
+                <surname>Gründer</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <pubPlace>Darmstadt</pubPlace>
+              <date>1971 ff.</date>
+            </imprint>
+            <extent>10 Bde.</extent>
+            <biblScope unit="volume" from="10" to="10">Bd. 10, St–T</biblScope>
+            <biblScope unit="column" from="909" to="914">Sp. 909–914</biblScope>
+          </monogr>
+        </biblStruct>
+     </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-3">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote with crossreference</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[3 Halbfass, Tatsache (Fn. 2), Sp. 911.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="3"
+               type="footnote"
+               place="bottom">
+          <label>3</label>
+          <bibl>Halbfass, Tatsache (Fn. 2), Sp. 911</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="3"
+               type="footnote"
+               place="bottom">
+          <label>3</label>
+          <bibl xml:id="bibl-3" ref="#bibl-2d">
+            <author>
+              <persName>
+                <surname>Halbfass</surname>
+              </persName>
+            </author>,
+            <title level="a">Tatsache</title>
+            (<ref type="footnote" target="#note-2">Fn. 2</ref>),
+            <citedRange unit="column" from="911" to="911">Sp. 911</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-3">
+          <analytic>
+            <title level="a">Tatsache</title>
+            <author>
+              <persName>
+                <surname>Halbfass</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+          <ref type="footnote" target="#note-2">Fn. 2</ref>
+          <citedRange unit="column" from="911" to="911">Sp. 911</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-3">
+          <analytic>
+            <title level="a">Tatsache I</title>
+            <author>
+              <persName>
+                <forename full="init">W.</forename>
+                <surname>Halbfass</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m">Historisches Wörterbuch der Philosophie</title>
+            <editor>
+              <persName>
+                <forename full="yes">Joachim</forename>
+                <surname>Ritter</surname>
+              </persName>
+            </editor>
+            <editor>
+              <persName>
+                <forename full="yes">Karlfried</forename>
+                <surname>Gründer</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <pubPlace>Darmstadt</pubPlace>
+              <date>1971 ff.</date>
+            </imprint>
+            <extent>10 Bde.</extent>
+            <biblScope unit="volume" from="10" to="10">Bd. 10, St–T</biblScope>
+            <biblScope unit="column" from="909" to="914">Sp. 909–914</biblScope>
+          </monogr>
+          <citedRange unit="column" from="911" to="911">Sp. 911</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-4">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[4 Die Beziehungen zwischen den juristischen und den naturphilosophischen Schriften von Francis Bacon werden in der wissenschaftlichen Literatur immer stärker diskutiert. Zwei jüngere Studien, auf die ich mich stark gestützt habe, sind Julian Martin, Francis Bacon, the State and the Reform of Natural Philosophy, Cambridge 1992, und Barbara J. Shapiro, A Culture of Fact: England, 1550–1720, Ithaca, London 2000.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="4"
+               type="footnote"
+               place="bottom">
+          <label>4</label>
+          Die Beziehungen zwischen den juristischen und den naturphilosophischen Schriften von Francis Bacon werden in der wissenschaftlichen Literatur immer stärker diskutiert. Zwei jüngere Studien, auf die ich mich stark gestützt habe, sind
+          <bibl>Julian Martin, Francis Bacon, the State and the Reform of Natural Philosophy, Cambridge 1992</bibl>, und
+          <bibl>Barbara J. Shapiro, A Culture of Fact: England, 1550–1720, Ithaca, London 2000</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               xml:id="note-4"
+               n="4"
+               type="footnote"
+               place="bottom">
+          <label>4</label>
+          <bibl xml:id="bibl-4a">
+            <author>
+              <persName>
+                <forename full="yes">Julian</forename>
+                <surname>Martin</surname>
+              </persName>
+            </author>,
+            <title level="m">Francis Bacon, the State and the Reform of Natural Philosophy</title>,
+            <pubPlace>Cambridge</pubPlace>
+            <date>1992</date>
+          </bibl>, und
+          <bibl xml:id="bibl-4b">
+            <author>
+              <persName>
+                <forename full="yes">Barbara J. </forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>,
+            <title level="m">A Culture of Fact: England, 1550–1720</title>,
+            <pubPlace>Ithaca</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>2000</date>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-4a">
+          <monogr>
+            <title level="m">Francis Bacon, the State and the Reform of Natural Philosophy</title>
+            <author>
+              <persName>
+                <forename full="yes">Julian</forename>
+                <surname>Martin</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1992</date>
+              <pubPlace>Cambridge</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-4b">
+          <monogr>
+            <title level="m">A Culture of Fact: England, 1550–1720</title>
+            <author>
+              <persName>
+                <forename full="yes">Barbara J. </forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>2000</date>
+              <pubPlace>Ithaca</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-4a">
+          <monogr>
+            <title level="m">Francis Bacon, the State and the Reform of Natural Philosophy</title>
+            <author>
+              <persName>
+                <forename full="yes">Julian</forename>
+                <surname>Martin</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1992</date>
+              <pubPlace>Cambridge</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-4b">
+          <monogr>
+            <title level="m">A Culture of Fact: England, 1550–1720</title>
+            <author>
+              <persName>
+                <forename full="yes">Barbara J. </forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>2000</date>
+              <pubPlace>Ithaca</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-5">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote with multiple languages and a crossreference</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[5 Untersuchungen in Buchlänge sind u. a.: Steven Shapin und Simon Schaffer, Leviathan and the Air-Pump: Hobbes, Boyle and the Experimental Life, Princeton 1985; Krzystof Pomian, Collectionneurs, amateurs et curieux, Paris 1987; Peter Galison, How Experiments End, Chicago, London 1987; The Uses of Experiment. Studies in the Natural Sciences, hg. von David Gooding, Trevor Pinch und Simon Schaffer, Cambridge 1989; Giuseppe Olmi, L’inventario del mondo: Catalogazione della natura e luoghi del sapere nella prima età moderna, Bologna 1992; Alain Desrosières, La Politique des grands nombres. Histoire de la raison statistique, Paris 1993; Paula Findlen, Possessing Nature: Museums, Collecting and Scientific Culture in Early Modern Italy, Berkeley 1994; Peter Dear, Discipline and Experience: The Mathematical Way in the Scientific Revolution, Chicago, London 1995; Christian Licoppe, La Formation de la pratique scientifique: Le discours de l’expérience en France et en Angleterre, (1630–1820), Paris 1996; Harry Marks, The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900–1990, Cambridge 1997; Anthony Grafton, The Footnote: A Curious History, Cambridge, Mass. 1997; Mary Poovey, A History of the Modern Fact: Problems of Knowledge in the Sciences of Wealth and Society, Chicago, London 1998; Lorraine Daston und Katharine Park, Wonders and the Order of Nature, 1150–1750, New York 1998; Shapiro, Culture of Fact (Fn. 4); Sammeln als Wissen, hg. von Anke te Heesen und E.C. Spary, Göttingen 2001.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="5"
+               type="footnote"
+               place="bottom">
+          <label>5</label>
+          Untersuchungen in Buchlänge sind u. a.:
+          <bibl>Steven Shapin und Simon Schaffer, Leviathan and the Air-Pump: Hobbes, Boyle and the Experimental Life, Princeton 1985</bibl>;
+          <bibl>Krzystof Pomian, Collectionneurs, amateurs et curieux, Paris 1987</bibl>;
+          <bibl>Peter Galison, How Experiments End, Chicago, London 1987</bibl>;
+          <bibl>The Uses of Experiment. Studies in the Natural Sciences, hg. von David Gooding, Trevor Pinch und Simon Schaffer, Cambridge 1989</bibl>;
+          <bibl>Giuseppe Olmi, L’inventario del mondo: Catalogazione della natura e luoghi del sapere nella prima età moderna, Bologna 1992</bibl>;
+          <bibl>Alain Desrosières, La Politique des grands nombres. Histoire de la raison statistique, Paris 1993</bibl>;
+          <bibl>Paula Findlen, Possessing Nature: Museums, Collecting and Scientific Culture in Early Modern Italy, Berkeley 1994</bibl>;
+          <bibl>Peter Dear, Discipline and Experience: The Mathematical Way in the Scientific Revolution, Chicago, London 1995</bibl>;
+          <bibl>Christian Licoppe, La Formation de la pratique scientifique: Le discours de l’expérience en France et en Angleterre, (1630–1820), Paris 1996</bibl>;
+          <bibl>Harry Marks, The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900–1990, Cambridge 1997</bibl>;
+          <bibl>Anthony Grafton, The Footnote: A Curious History, Cambridge, Mass. 1997</bibl>;
+          <bibl>Mary Poovey, A History of the Modern Fact: Problems of Knowledge in the Sciences of Wealth and Society, Chicago, London 1998</bibl>;
+          <bibl>Lorraine Daston und Katharine Park, Wonders and the Order of Nature, 1150–1750, New York 1998</bibl>;
+          <bibl>Shapiro, Culture of Fact (Fn. 4)</bibl>;
+          <bibl>Sammeln als Wissen, hg. von Anke te Heesen und E.C. Spary, Göttingen 2001</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="5"
+               type="footnote"
+               place="bottom">
+          <label>5</label>
+          Untersuchungen in Buchlänge sind u. a.:
+          <bibl xml:id="bibl-5a">
+            <author>
+              <persName>
+                <forename full="yes">Steven</forename>
+                <surname>Shapin</surname>
+              </persName>
+            </author> und
+            <author>
+              <persName>
+                <forename full="yes">Simon</forename>
+                <surname>Schaffer</surname>
+              </persName>
+            </author>,
+            <title level="m">Leviathan and the Air-Pump: Hobbes, Boyle and the Experimental Life</title>,
+            <pubPlace>Princeton</pubPlace>
+            <date>1985</date>
+          </bibl>;
+          <bibl xml:id="bibl-5b">
+            <author>
+              <persName>
+                <forename full="yes">Krzystof</forename>
+                <surname>Pomian</surname>
+              </persName>
+            </author>,
+            <title level="m">Collectionneurs, amateurs et curieux</title>,
+            <pubPlace>Paris</pubPlace>
+            <date>1987</date>
+          </bibl>;
+          <bibl xml:id="bibl-5c">
+            <author>
+              <persName>
+                <forename full="yes">Peter</forename>
+                <surname>Galison</surname>
+              </persName>
+            </author>,
+            <title level="m">How Experiments End</title>,
+            <pubPlace>Chicago</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>1987</date>
+          </bibl>;
+          <bibl xml:id="bibl-5d">
+            <title level="m">The Uses of Experiment. Studies in the Natural Sciences</title>, hg. von
+            <editor>
+              <persName>
+                <forename full="yes">David</forename>
+                <surname>Gooding</surname>
+              </persName>
+            </editor>,
+            <editor>
+              <persName>
+                <forename full="yes">Trevor</forename>
+                <surname>Pinch</surname>
+              </persName>
+            </editor> und
+            <editor>
+              <persName>
+                <forename full="yes">Simon</forename>
+                <surname>Schaffer</surname>
+              </persName>
+            </editor>,
+            <pubPlace>Cambridge</pubPlace>
+            <date>1989</date>
+          </bibl>;
+          <bibl xml:id="bibl-5e">
+            <author>
+              <persName>
+                <forename full="yes">Giuseppe</forename>
+                <surname>Olmi</surname>
+              </persName>
+            </author>,
+            <title level="m">L’inventario del mondo: Catalogazione della natura e luoghi del sapere nella prima età moderna</title>,
+            <pubPlace>Bologna</pubPlace>
+            <date>1992</date>
+          </bibl>;
+          <bibl xml:id="bibl-5f">
+            <author>
+              <persName>
+                <forename full="yes">Alain</forename>
+                <surname>Desrosières</surname>
+              </persName>
+            </author>,
+            <title level="m">La Politique des grands nombres. Histoire de la raison statistique</title>,
+            <pubPlace>Paris</pubPlace>
+            <date>1993</date>
+          </bibl>;
+          <bibl xml:id="bibl-5g">
+            <author>
+              <persName>
+                <forename full="yes">Paula</forename>
+                <surname>Findlen</surname>
+              </persName>
+            </author>,
+            <title level="m">Possessing Nature: Museums, Collecting and Scientific Culture in Early Modern Italy</title>,
+            <pubPlace>Berkeley</pubPlace>
+            <date>1994</date>
+          </bibl>;
+          <bibl xml:id="bibl-5h">
+            <author>
+              <persName>
+                <forename full="yes">Peter</forename>
+                <surname>Dear</surname>
+              </persName>
+            </author>,
+            <title level="m">Discipline and Experience: The Mathematical Way in the Scientific Revolution</title>,
+            <pubPlace>Chicago</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>1995</date>
+          </bibl>;
+          <bibl xml:id="bibl-5i">
+            <author>
+              <persName>
+                <forename full="yes">Christian</forename>
+                <surname>Licoppe</surname>
+              </persName>
+            </author>,
+            <title level="m">La Formation de la pratique scientifique: Le discours de l’expérience en France et en Angleterre, (1630–1820)</title>,
+            <pubPlace>Paris</pubPlace>
+            <date>1996</date>
+          </bibl>;
+          <bibl xml:id="bibl-5j">
+            <author>
+              <persName>
+                <forename full="yes">Harry</forename>
+                <surname>Marks</surname>
+              </persName>
+            </author>,
+            <title level="m">The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900–1990</title>,
+            <pubPlace>Cambridge</pubPlace>
+            <date>1997</date>
+          </bibl>;
+          <bibl xml:id="bibl-5k">
+            <author>
+              <persName>
+                <forename full="yes">Anthony</forename>
+                <surname>Grafton</surname>
+              </persName>
+            </author>,
+            <title level="m">The Footnote: A Curious History</title>,
+            <pubPlace>Cambridge, Mass.</pubPlace>
+            <date>1997</date>
+          </bibl>;
+          <bibl xml:id="bibl-5l">
+            <author>
+              <persName>
+                <forename full="yes">Mary</forename>
+                <surname>Poovey</surname>
+              </persName>
+            </author>,
+            <title level="m">A History of the Modern Fact: Problems of Knowledge in the Sciences of Wealth and Society</title>,
+            <pubPlace>Chicago</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>1998</date>
+          </bibl>;
+          <bibl xml:id="bibl-5m">
+            <author>
+              <persName>
+                <forename full="yes">Lorraine</forename>
+                <surname>Daston</surname>
+              </persName>
+            </author> und
+            <author>
+              <persName>
+                <forename full="yes">Katharine</forename>
+                <surname>Park</surname>
+              </persName>
+            </author>,
+            <title level="m">Wonders and the Order of Nature, 1150–1750</title>,
+            <pubPlace>New York</pubPlace>
+            <date>1998</date>
+          </bibl>;
+          <bibl xml:id="bibl-5n" ref="#bibl-4b">
+            <author>
+              <persName>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>,
+            <title level="m">Culture of Fact</title>
+            (<ref type="footnote" target="#note-4">Fn. 4</ref>)
+          </bibl>;
+          <bibl xml:id="bibl-5o">
+            <title level="m">Sammeln als Wissen</title>, hg. von
+            <editor>
+              <forename full="yes">Anke</forename>
+              <nameLink>te</nameLink>
+              <surname>Heesen</surname>
+            </editor> und
+            <editor>
+              <forename full="init">E.C.</forename>
+              <surname>Spary</surname>
+            </editor>,
+            <pubPlace>Göttingen</pubPlace>
+            <date>2001</date>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+          <biblStruct source="#bibl-5a">
+            <monogr>
+              <title level="m">Leviathan and the Air-Pump: Hobbes, Boyle and the Experimental Life</title>
+              <author>
+                <persName>
+                  <forename full="yes">Steven</forename>
+                  <surname>Shapin</surname>
+                </persName>
+              </author>
+              <author>
+                <persName>
+                  <forename full="yes">Simon</forename>
+                  <surname>Schaffer</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1985</date>
+                <pubPlace>Princeton</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5b">
+            <monogr>
+              <title level="m">Collectionneurs, amateurs et curieux</title>
+              <author>
+                <persName>
+                  <forename full="yes">Krzystof</forename>
+                  <surname>Pomian</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1987</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5c">
+            <monogr>
+              <title level="m">How Experiments End</title>
+              <author>
+                <persName>
+                  <forename full="yes">Peter</forename>
+                  <surname>Galison</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1987</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5d">
+            <monogr>
+              <title level="m">The Uses of Experiment. Studies in the Natural Sciences</title>
+              <editor>
+                <persName>
+                  <forename full="yes">David</forename>
+                  <surname>Gooding</surname>
+                </persName>
+              </editor>
+              <editor>
+                <persName>
+                  <forename full="yes">Trevor</forename>
+                  <surname>Pinch</surname>
+                </persName>
+              </editor>
+              <editor>
+                <persName>
+                  <forename full="yes">Simon</forename>
+                  <surname>Schaffer</surname>
+                </persName>
+              </editor>
+              <imprint>
+                <date>1989</date>
+                <pubPlace>Cambridge</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5e">
+            <monogr>
+              <title level="m">L’inventario del mondo: Catalogazione della natura e luoghi del sapere nella prima età moderna</title>
+              <author>
+                <persName>
+                  <forename full="yes">Giuseppe</forename>
+                  <surname>Olmi</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1992</date>
+                <pubPlace>Bologna</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5f">
+            <monogr>
+              <title level="m">La Politique des grands nombres. Histoire de la raison statistique</title>
+              <author>
+                <persName>
+                  <forename full="yes">Alain</forename>
+                  <surname>Desrosières</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1993</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5g">
+            <monogr>
+              <title level="m">Possessing Nature: Museums, Collecting and Scientific Culture in Early Modern Italy</title>
+              <author>
+                <persName>
+                  <forename full="yes">Paula</forename>
+                  <surname>Findlen</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1994</date>
+                <pubPlace>Berkeley</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5h">
+            <monogr>
+              <title level="m">Discipline and Experience: The Mathematical Way in the Scientific Revolution</title>
+              <author>
+                <persName>
+                  <forename full="yes">Peter</forename>
+                  <surname>Dear</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1995</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5i">
+            <monogr>
+              <title level="m">La Formation de la pratique scientifique: Le discours de l’expérience en France et en Angleterre, (1630–1820)</title>
+              <author>
+                <persName>
+                  <forename full="yes">Christian</forename>
+                  <surname>Licoppe</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1996</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5j">
+            <monogr>
+              <title level="m">The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900–1990</title>
+              <author>
+                <persName>
+                  <forename full="yes">Harry</forename>
+                  <surname>Marks</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Cambridge</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5k">
+            <monogr>
+              <title level="m">The Footnote: A Curious History</title>
+              <author>
+                <persName>
+                  <forename full="yes">Anthony</forename>
+                  <surname>Grafton</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Cambridge, Mass.</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5l">
+            <monogr>
+              <title level="m">A History of the Modern Fact: Problems of Knowledge in the Sciences of Wealth and Society</title>
+              <author>
+                <persName>
+                  <forename full="yes">Mary</forename>
+                  <surname>Poovey</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1998</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5m">
+            <monogr>
+              <title level="m">Wonders and the Order of Nature, 1150–1750</title>
+              <author>
+                <persName>
+                  <forename full="yes">Lorraine</forename>
+                  <surname>Daston</surname>
+                </persName>
+              </author>
+              <author>
+                <persName>
+                  <forename full="yes">Katharine</forename>
+                  <surname>Park</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1998</date>
+                <pubPlace>New York</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5n" ref="#bibl-4b">
+            <monogr>
+              <title level="m">Culture of Fact</title>
+              <author>
+                <persName>
+                  <surname>Shapiro</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date></date>
+              </imprint>
+            </monogr>
+            <ref type="footnote" target="#note-4">Fn. 4</ref>
+          </biblStruct>
+          <biblStruct source="bibl-5o">
+            <monogr>
+              <title level="m">Sammeln als Wissen</title>
+              <editor>
+                <forename full="yes">Anke</forename>
+                <nameLink>te</nameLink>
+                <surname>Heesen</surname>
+              </editor>
+              <editor>
+                <forename full="init">E.C.</forename>
+                <surname>Spary</surname>
+              </editor>
+              <imprint>
+                <date>2001</date>
+                <pubPlace>Göttingen</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+          <biblStruct source="#bibl-5a">
+            <monogr>
+              <title level="m">Leviathan and the Air-Pump: Hobbes, Boyle and the Experimental Life</title>
+              <author>
+                <persName>
+                  <forename full="yes">Steven</forename>
+                  <surname>Shapin</surname>
+                </persName>
+              </author>
+              <author>
+                <persName>
+                  <forename full="yes">Simon</forename>
+                  <surname>Schaffer</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1985</date>
+                <pubPlace>Princeton</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5b">
+            <monogr>
+              <title level="m">Collectionneurs, amateurs et curieux</title>
+              <author>
+                <persName>
+                  <forename full="yes">Krzystof</forename>
+                  <surname>Pomian</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1987</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5c">
+            <monogr>
+              <title level="m">How Experiments End</title>
+              <author>
+                <persName>
+                  <forename full="yes">Peter</forename>
+                  <surname>Galison</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1987</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5d">
+            <monogr>
+              <title level="m">The Uses of Experiment. Studies in the Natural Sciences</title>
+              <editor>
+                <persName>
+                  <forename full="yes">David</forename>
+                  <surname>Gooding</surname>
+                </persName>
+              </editor>
+              <editor>
+                <persName>
+                  <forename full="yes">Trevor</forename>
+                  <surname>Pinch</surname>
+                </persName>
+              </editor>
+              <editor>
+                <persName>
+                  <forename full="yes">Simon</forename>
+                  <surname>Schaffer</surname>
+                </persName>
+              </editor>
+              <imprint>
+                <date>1989</date>
+                <pubPlace>Cambridge</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5e">
+            <monogr>
+              <title level="m">L’inventario del mondo: Catalogazione della natura e luoghi del sapere nella prima età moderna</title>
+              <author>
+                <persName>
+                  <forename full="yes">Giuseppe</forename>
+                  <surname>Olmi</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1992</date>
+                <pubPlace>Bologna</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5f">
+            <monogr>
+              <title level="m">La Politique des grands nombres. Histoire de la raison statistique</title>
+              <author>
+                <persName>
+                  <forename full="yes">Alain</forename>
+                  <surname>Desrosières</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1993</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5g">
+            <monogr>
+              <title level="m">Possessing Nature: Museums, Collecting and Scientific Culture in Early Modern Italy</title>
+              <author>
+                <persName>
+                  <forename full="yes">Paula</forename>
+                  <surname>Findlen</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1994</date>
+                <pubPlace>Berkeley</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5h">
+            <monogr>
+              <title level="m">Discipline and Experience: The Mathematical Way in the Scientific Revolution</title>
+              <author>
+                <persName>
+                  <forename full="yes">Peter</forename>
+                  <surname>Dear</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1995</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5i">
+            <monogr>
+              <title level="m">La Formation de la pratique scientifique: Le discours de l’expérience en France et en Angleterre, (1630–1820)</title>
+              <author>
+                <persName>
+                  <forename full="yes">Christian</forename>
+                  <surname>Licoppe</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1996</date>
+                <pubPlace>Paris</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5j">
+            <monogr>
+              <title level="m">The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900–1990</title>
+              <author>
+                <persName>
+                  <forename full="yes">Harry</forename>
+                  <surname>Marks</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Cambridge</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5k">
+            <monogr>
+              <title level="m">The Footnote: A Curious History</title>
+              <author>
+                <persName>
+                  <forename full="yes">Anthony</forename>
+                  <surname>Grafton</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1997</date>
+                <pubPlace>Cambridge, Mass.</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5l">
+            <monogr>
+              <title level="m">A History of the Modern Fact: Problems of Knowledge in the Sciences of Wealth and Society</title>
+              <author>
+                <persName>
+                  <forename full="yes">Mary</forename>
+                  <surname>Poovey</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1998</date>
+                <pubPlace>Chicago</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5m">
+            <monogr>
+              <title level="m">Wonders and the Order of Nature, 1150–1750</title>
+              <author>
+                <persName>
+                  <forename full="yes">Lorraine</forename>
+                  <surname>Daston</surname>
+                </persName>
+              </author>
+              <author>
+                <persName>
+                  <forename full="yes">Katharine</forename>
+                  <surname>Park</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>1998</date>
+                <pubPlace>New York</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="#bibl-5n" ref="#bibl-4b">
+            <monogr>
+              <title level="m">A Culture of Fact: England, 1550–1720</title>
+              <author>
+                <persName>
+                  <forename full="yes">Barbara J. </forename>
+                  <surname>Shapiro</surname>
+                </persName>
+              </author>
+              <imprint>
+                <date>2000</date>
+                <pubPlace>Ithaca</pubPlace>
+                <pubPlace>London</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          <biblStruct source="bibl-5o">
+            <monogr>
+              <title level="m">Sammeln als Wissen</title>
+              <editor>
+                <forename full="yes">Anke</forename>
+                <nameLink>te</nameLink>
+                <surname>Heesen</surname>
+              </editor>
+              <editor>
+                <forename full="init">E.C.</forename>
+                <surname>Spary</surname>
+              </editor>
+              <imprint>
+                <date>2001</date>
+                <pubPlace>Göttingen</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-6">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[6 Vgl. die Artikel »Fact« im Oxford English Dictionary und »Fait« in Le Robert: Dictionnaire historique de la langue française.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="6"
+               type="footnote"
+               place="bottom">
+          <label>6</label>
+          Vgl. die Artikel
+          <bibl>»Fact« im Oxford English Dictionary</bibl> und
+          <bibl>»Fait« in Le Robert: Dictionnaire historique de la langue française</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="6"
+               type="footnote"
+               place="bottom">
+          <label>6</label>
+          Vgl. die Artikel
+          <bibl xml:id="bibl-6a">
+            »<title level="a">Fact</title>« im
+            <title level="m">Oxford English Dictionary</title>
+          </bibl> und
+          <bibl xml:id="bibl-6b">
+            »<title level="a">Fait</title>« in
+            <title level="m">Le Robert: Dictionnaire historique de la langue française</title>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-6a">
+          <analytic>
+            <title level="a">Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-6b">
+          <analytic>
+            <title level="a">Fait</title>
+          </analytic>
+          <monogr>
+            <title level="m">Le Robert: Dictionnaire historique de la langue française</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-6a">
+          <analytic>
+            <title level="a">Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-6b">
+          <analytic>
+            <title level="a">Fait</title>
+          </analytic>
+          <monogr>
+            <title level="m">Le Robert: Dictionnaire historique de la langue française</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-7">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[7 Plinius der Ältere, Historia naturalis, Prefatio: »viginti milia rerum dignarum cura ... lectione voluminum circiter duorum milium, quorum pauca admodum studiosi attingunt propter secretum materiae, ex exquisitis auctoribus centum inclusimus triginta sex voluminibus, adiectis rebus plurimus quas aut ignoraverant priores aut postea invenerat vita.« Zu den zahlreichen Ausgaben und zur Rezeption von Plinius in der frühen Neuzeit vgl. Charles G. Nauert, Jr., Humanists, Scientists and Pliny: Changing Approaches to a Classical Author, in: American Historical Review 84 (1979) 72–85.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="7"
+               type="footnote"
+               place="bottom">
+          <label>7</label>
+          <bibl>Plinius der Ältere, Historia naturalis, Prefatio</bibl>:
+          »viginti milia rerum dignarum cura ... lectione voluminum
+          circiter duorum milium, quorum pauca admodum studiosi attingunt
+          propter secretum materiae, ex exquisitis auctoribus centum
+          inclusimus triginta sex voluminibus, adiectis rebus plurimus
+          quas aut ignoraverant priores aut postea invenerat vita.« Zu
+          den zahlreichen Ausgaben und zur Rezeption von Plinius in der
+          frühen Neuzeit vgl.
+          <bibl>Charles G. Nauert, Jr., Humanists, Scientists and Pliny: Changing Approaches to a Classical Author, in: American Historical Review 84 (1979) 72–85</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="7"
+               type="footnote"
+               place="bottom">
+          <label>7</label>
+          <bibl xml:id="bibl-7a">
+            <author>
+              <persName>
+                <surname>Plinius</surname>
+                <genName>der Ältere</genName>
+              </persName>
+            </author>,
+            <title level="m">Historia naturalis</title>,
+            <citedRange unit="section" from="prefatio" to="prefatio">Prefatio</citedRange>
+          </bibl>:
+          »viginti milia rerum dignarum cura ... lectione voluminum
+          circiter duorum milium, quorum pauca admodum studiosi attingunt
+          propter secretum materiae, ex exquisitis auctoribus centum
+          inclusimus triginta sex voluminibus, adiectis rebus plurimus
+          quas aut ignoraverant priores aut postea invenerat vita.« Zu
+          den zahlreichen Ausgaben und zur Rezeption von Plinius in der
+          frühen Neuzeit vgl.
+          <bibl xml:id="bibl-7b">
+            <author>
+              <forename full="yes">Charles G.</forename>
+              <surname>Nauert</surname>,
+              <genName>Jr.</genName>
+            </author>,
+            <title level="a">Humanists, Scientists and Pliny: Changing Approaches to a Classical Author</title>, in:
+            <title level="j">American Historical Review</title>
+            <biblScope unit="volume" from="84" to="84">84</biblScope>
+            (<date>1979</date>)
+            <biblScope unit="page" from="72" to="85">72–85</biblScope>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-7a">
+          <monogr>
+            <title level="m">Historia naturalis</title>
+            <author>
+              <persName>
+                <surname>Plinius</surname>
+                <genName>der Ältere</genName>
+              </persName>
+            </author>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+          <citedRange unit="section" from="prefatio" to="prefatio">Prefatio</citedRange>
+        </biblStruct>
+        <biblStruct source="#bibl-7b">
+          <analytic>
+            <title level="a">Humanists, Scientists and Pliny: Changing Approaches to a Classical Author</title>
+            <author>
+              <forename full="yes">Charles G.</forename>
+              <surname>Nauert</surname>
+              <genName full="abb">Jr.</genName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">American Historical Review</title>
+            <imprint>
+              <date>1979</date>
+            </imprint>
+            <biblScope unit="volume" from="84" to="84">84</biblScope>
+            <biblScope unit="page" from="72" to="85">72–85</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-7a">
+          <monogr>
+            <title level="m">Historia naturalis</title>
+            <author>
+              <persName>
+                <surname>Plinius</surname>
+                <genName>der Ältere</genName>
+              </persName>
+            </author>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+          <citedRange unit="section" from="prefatio" to="prefatio">Prefatio</citedRange>
+        </biblStruct>
+        <biblStruct source="#bibl-7b">
+          <analytic>
+            <title level="a">Humanists, Scientists and Pliny: Changing Approaches to a Classical Author</title>
+            <author>
+              <forename full="yes">Charles G.</forename>
+              <surname>Nauert</surname>
+              <genName full="abb">Jr.</genName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">American Historical Review</title>
+            <imprint>
+              <date>1979</date>
+            </imprint>
+            <biblScope unit="volume" from="84" to="84">84</biblScope>
+            <biblScope unit="page" from="72" to="85">72–85</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-8">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[8 Francis Bacon, Novum organum, 1620, I. 1; übersetzt und hg. von James Spedding, Robert Leslie Ellis und Douglas Denon Heath, The Works of Francis Bacon, Bd. 8 [1863], abgedruckt in: Francis Bacon, The New Organon and Related Writings, hg. von Fulton H. Andersen, New York, London 1985, 39.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="8"
+               type="footnote"
+               place="bottom">
+          <label>8</label>
+          <bibl>Francis Bacon, Novum organum, 1620, I. 1; übersetzt und hg. von James Spedding, Robert Leslie Ellis und Douglas Denon Heath, The Works of Francis Bacon, Bd. 8 [1863], abgedruckt in: Francis Bacon, The New Organon and Related Writings, hg. von Fulton H. Andersen, New York, London 1985, 39</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="8"
+               type="footnote"
+               place="bottom">
+          <label>8</label>
+          <bibl xml:id="bibl-8">
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>,
+            <title level="m">Novum organum</title>,
+            <date>1620</date>,
+            <citedRange unit="section" from="I.1" to="I.1">I. 1</citedRange>;
+            übersetzt und hg. von 
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">James</forename>
+                <surname>Spedding</surname>
+              </persName>
+            </editor>,
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Robert Leslie</forename>
+                <surname>Ellis</surname>
+              </persName>
+            </editor> und
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Douglas Denon</forename>
+                <surname>Heath</surname>
+              </persName>
+            </editor>,
+            <title level="m">The Works of Francis Bacon</title>,
+            <biblScope unit="volume" from="8" to="8">Bd. 8</biblScope>
+            [<date>1863</date>], abgedruckt in:
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>,
+            <title level="m">The New Organon and Related Writings</title>, hg. von
+            <editor>
+              <persName>
+                <forename full="yes">Fulton H.</forename>
+                <surname>Andersen</surname>
+              </persName>
+            </editor>,
+            <pubPlace>New York</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>1985</date>,
+            <citedRange unit="page" from="39" to="39">39</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-8" xml:id="biblStruct-8a">
+          <monogr>
+            <title level="m">Novum organum</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1620</date>
+            </imprint>
+          </monogr>
+          <citedRange unit="section" from="I.1" to="I.1">I. 1</citedRange>
+          <relatedItem type="otherEdition">
+            <ref target="#biblStruct-8b"/>
+          </relatedItem>
+          <relatedItem type="otherEdition">
+            <ref target="#biblStruct-8c"/>
+          </relatedItem>
+        </biblStruct>
+        <biblStruct source="#bibl-8" xml:id="biblStruct-8b">
+          <monogr>
+            <title level="m">The Works of Francis Bacon</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">James</forename>
+                <surname>Spedding</surname>
+              </persName>
+            </editor>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Robert Leslie</forename>
+                <surname>Ellis</surname>
+              </persName>
+            </editor>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Douglas Denon</forename>
+                <surname>Heath</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1863</date>
+            </imprint>
+            <biblScope unit="volume" from="8" to="8">Bd. 8</biblScope>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-8" xml:id="biblStruct-8c">
+          <monogr>
+            <title level="m">The New Organon and Related Writings</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <forename full="yes">Fulton H.</forename>
+                <surname>Andersen</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1985</date>
+              <pubPlace>New York</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="39" to="39">39</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-8" xml:id="biblStructRes-8a">
+          <monogr>
+            <title level="m">Novum organum</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1620</date>
+            </imprint>
+          </monogr>
+          <citedRange unit="section" from="I.1" to="I.1">I. 1</citedRange>
+          <relatedItem type="otherEdition">
+            <ref target="#biblStructRes-8b"/>
+          </relatedItem>
+          <relatedItem type="otherEdition">
+            <ref target="#biblStructRes-8c"/>
+          </relatedItem>
+        </biblStruct>
+        <biblStruct source="#bibl-8" xml:id="biblStructRes-8b">
+          <monogr>
+            <title level="m">The Works of Francis Bacon</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">James</forename>
+                <surname>Spedding</surname>
+              </persName>
+            </editor>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Robert Leslie</forename>
+                <surname>Ellis</surname>
+              </persName>
+            </editor>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Douglas Denon</forename>
+                <surname>Heath</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1863</date>
+            </imprint>
+            <biblScope unit="volume" from="8" to="8">Bd. 8</biblScope>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-8" xml:id="biblStructRes-8c">
+          <monogr>
+            <title level="m">The New Organon and Related Writings</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <forename full="yes">Fulton H.</forename>
+                <surname>Andersen</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1985</date>
+              <pubPlace>New York</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="39" to="39">39</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-9">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[9 Francis Bacon, The Elements of the Common Lawes of England [1630], Amsterdam, New York 1968, Regula 15, S. 65.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="9"
+               type="footnote"
+               place="bottom">
+          <label>9</label>
+          <bibl>Francis Bacon, The Elements of the Common Lawes of England [1630], Amsterdam, New York 1968, Regula 15, S. 65</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="9"
+               type="footnote"
+               place="bottom">
+          <label>9</label>
+          <bibl xml:id="bibl-9">
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>,
+            <title level="m">The Elements of the Common Lawes of England</title>
+            [<date type="firstEdition">1630</date>],
+            <pubPlace>Amsterdam</pubPlace>,
+            <pubPlace>New York</pubPlace>
+            <date>1968</date>,
+            <citedRange unit="rule" from="15" to="15">Regula 15</citedRange>,
+            <citedRange unit="page" from="65" to="65">S. 65</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-9">
+          <monogr>
+            <title level="m">The Elements of the Common Lawes of England</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date type="firstEdition">1630</date>
+              <date>1968</date>
+              <pubPlace>Amsterdam</pubPlace>
+              <pubPlace>New York</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="rule" from="15" to="15">Regula 15</citedRange>
+          <citedRange unit="page" from="65" to="65">S. 65</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-9">
+          <monogr>
+            <title level="m">The Elements of the Common Lawes of England</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date type="firstEdition">1630</date>
+              <date>1968</date>
+              <pubPlace>Amsterdam</pubPlace>
+              <pubPlace>New York</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="rule" from="15" to="15">Regula 15</citedRange>
+          <citedRange unit="page" from="65" to="65">S. 65</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-10">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[10 Vgl. »Matter of Fact« im Oxford English Dictionary, ebenso Barbara J. Shapiro, The Concept of ›Fact‹: Legal Origins and Cultural Diffusion, in: Albion 26 (1994) 227–252, die anhand des Werks von Bacon nachzeichnet, wie sich im England des siebzehnten Jahrhunderts der Ausdruck »matter of fact« von der Rechtsprechung zur Naturphilosophie hin ausbreitete.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="10"
+               type="footnote"
+               place="bottom">
+          <label>10</label>
+          Vgl.
+          <bibl>»Matter of Fact« im Oxford English Dictionary</bibl>, ebenso
+          <bibl>Barbara J. Shapiro, The Concept of ›Fact‹: Legal Origins and Cultural Diffusion, in: Albion 26 (1994) 227–252</bibl>, die anhand des Werks von Bacon nachzeichnet, wie sich im England des siebzehnten Jahrhunderts der Ausdruck »matter of fact« von der Rechtsprechung zur Naturphilosophie hin ausbreitete.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="10"
+               type="footnote"
+               place="bottom">
+          <label>10</label>
+          Vgl.
+          <bibl xml:id="bibl-10a">
+            »<title level="a">Matter of Fact</title>« im
+            <title level="m">Oxford English Dictionary</title>
+          </bibl>, ebenso
+          <bibl xml:id="bibl-10b">
+            <author>
+              <persName>
+                <forename full="yes">Barbara J.</forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>,
+            <title level="a">The Concept of ›Fact‹: Legal Origins and Cultural Diffusion</title>, in:
+            <title level="j">Albion</title>
+            <biblScope unit="volume" from="26" to="26">26</biblScope>
+            (<date>1994</date>)
+            <biblScope unit="page" from="227" to="252">227–252</biblScope>
+          </bibl>, die anhand des Werks von Bacon nachzeichnet, wie sich im
+          England des siebzehnten Jahrhunderts der Ausdruck »matter of fact«
+          von der Rechtsprechung zur Naturphilosophie hin ausbreitete.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-10a">
+          <analytic>
+            <title level="a">Matter of Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-10b">
+          <analytic>
+            <title level="a">The Concept of ›Fact‹: Legal Origins and Cultural Diffusion</title>
+            <author>
+              <persName>
+                <forename full="yes">Barbara J.</forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Albion</title>
+            <imprint>
+              <date>1994</date>
+            </imprint>
+            <biblScope unit="volume" from="26" to="26">26</biblScope>
+            <biblScope unit="page" from="227" to="252">227–252</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-10a">
+          <analytic>
+            <title level="a">Matter of Fact</title>
+          </analytic>
+          <monogr>
+            <title level="m">Oxford English Dictionary</title>
+            <imprint>
+              <date></date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <biblStruct source="#bibl-10b">
+          <analytic>
+            <title level="a">The Concept of ›Fact‹: Legal Origins and Cultural Diffusion</title>
+            <author>
+              <persName>
+                <forename full="yes">Barbara J.</forename>
+                <surname>Shapiro</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Albion</title>
+            <imprint>
+              <date>1994</date>
+            </imprint>
+            <biblScope unit="volume" from="26" to="26">26</biblScope>
+            <biblScope unit="page" from="227" to="252">227–252</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-11">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[11 Francis Bacon, The Advancement of Learning [1605], in: Lord Bacon’s Works, hg. von Basil Montagu, 16 Bde., London 1825–34, Bd. 2, 42 (dt. Ausgabe: Über die Würde und den Fortgang der Wissenschaften, verdeutschet und mit dem Leben des Verfaßers und einigen historischen Anmerkungen herausgegeben von Johann H. Pfingsten, Pest 1783, Nachdruck Darmstadt 1966, 87).]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="11"
+               type="footnote"
+               place="bottom">
+          <label>11</label>
+          <bibl>Francis Bacon, The Advancement of Learning [1605], in: Lord Bacon’s Works, hg. von Basil Montagu, 16 Bde., London 1825–34, Bd. 2, 42 (dt. Ausgabe: Über die Würde und den Fortgang der Wissenschaften, verdeutschet und mit dem Leben des Verfaßers und einigen historischen Anmerkungen herausgegeben von Johann H. Pfingsten, Pest 1783, Nachdruck Darmstadt 1966, 87)</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="11"
+               type="footnote"
+               place="bottom">
+          <label>11</label>
+          <bibl xml:id="bibl-11">
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>,
+            <title level="a">The Advancement of Learning</title>
+            [<date>1605</date>], in:
+            <title level="m">Lord Bacon’s Works</title>, hg. von
+            <editor>
+              <persName>
+                <forename full="yes">Basil</forename>
+                <surname>Montagu</surname>
+              </persName>
+            </editor>,
+            <extent>16 Bde.</extent>,
+            <pubPlace>London</pubPlace>
+            <date from="1825" to="1834">1825–34</date>,
+            <biblScope unit="volume" from="2" to="2">Bd. 2</biblScope>,
+            <biblScope unit="page" from="42" to="42">42</biblScope>
+            (<edition>dt. Ausgabe</edition>:
+            <title level="a">Über die Würde und den Fortgang der Wissenschaften</title>,
+            verdeutschet und mit dem Leben des Verfaßers und einigen historischen Anmerkungen herausgegeben von
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Johann H.</forename>
+                <surname>Pfingsten</surname>
+              </persName>
+            </editor>,
+            <pubPlace>Pest</pubPlace>
+            <date>1783</date>,
+            <edition>Nachdruck</edition>
+            <pubPlace>Darmstadt</pubPlace>
+            <date>1966</date>,
+            <citedRange unit="page" from="87" to="87">87</citedRange>)
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-11" xml:id="biblStruct-11a">
+          <analytic>
+            <title level="a">The Advancement of Learning</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <date>1605</date>
+          </analytic>
+          <monogr>
+            <title level="m">Lord Bacon’s Works</title>
+            <editor>
+              <persName>
+                <forename full="yes">Basil</forename>
+                <surname>Montagu</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date from="1825" to="1834">1825–34</date>
+              <pubPlace>London</pubPlace>
+            </imprint>
+            <extent>16 Bde.</extent>
+            <biblScope unit="volume" from="2" to="2">Bd. 2</biblScope>
+            <biblScope unit="page" from="42" to="42">42</biblScope>
+          </monogr>
+          <relatedItem type="translation">
+            <ref target="#biblStruct-11b"/>
+          </relatedItem>
+        </biblStruct>
+        <biblStruct source="#bibl-11" xml:id="biblStruct-11b">
+          <monogr>
+            <title level="m">Über die Würde und den Fortgang der Wissenschaften</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Johann H.</forename>
+                <surname>Pfingsten</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1783</date>
+              <pubPlace>Pest</pubPlace>
+            </imprint>
+          </monogr>
+          <monogr>
+            <imprint>
+              <date>1966</date>
+              <pubPlace>Darmstadt</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="87" to="87">87</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-11" xml:id="biblStructRes-11a">
+          <analytic>
+            <title level="a">The Advancement of Learning</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <date>1605</date>
+          </analytic>
+          <monogr>
+            <title level="m">Lord Bacon’s Works</title>
+            <editor>
+              <persName>
+                <forename full="yes">Basil</forename>
+                <surname>Montagu</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date from="1825" to="1834">1825–34</date>
+              <pubPlace>London</pubPlace>
+            </imprint>
+            <extent>16 Bde.</extent>
+            <biblScope unit="volume" from="2" to="2">Bd. 2</biblScope>
+            <biblScope unit="page" from="42" to="42">42</biblScope>
+          </monogr>
+          <relatedItem type="translation">
+            <ref target="#biblStruct-11b"/>
+          </relatedItem>
+        </biblStruct>
+        <biblStruct source="#bibl-11" xml:id="biblStructRes-11b">
+          <monogr>
+            <title level="m">Über die Würde und den Fortgang der Wissenschaften</title>
+            <author>
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+            <editor role="translator editor">
+              <persName>
+                <forename full="yes">Johann H.</forename>
+                <surname>Pfingsten</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date>1783</date>
+              <pubPlace>Pest</pubPlace>
+            </imprint>
+          </monogr>
+          <monogr>
+            <imprint>
+              <date>1966</date>
+              <pubPlace>Darmstadt</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="87" to="87">87</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-12">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[12 Pierre Louis, Le mot ›ISTORIA‹ chez Aristote, in: Revue de philologie, de littérature et d’histoire anciennes 29 (1955) 39–44.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="12"
+               type="footnote"
+               place="bottom">
+          <label>12</label>
+          <bibl>Pierre Louis, Le mot ›ISTORIA‹ chez Aristote, in: Revue de philologie, de littérature et d’histoire anciennes 29 (1955) 39–44.</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="12"
+               type="footnote"
+               place="bottom">
+          <label>12</label>
+          <bibl xml:id="bibl-12">
+            <author>
+              <persName>
+                <forename full="yes">Pierre</forename>
+                <surname>Louis</surname>
+              </persName>
+            </author>,
+            <title level="a">Le mot ›ISTORIA‹ chez Aristote</title>, in:
+            <title level="j">Revue de philologie, de littérature et d’histoire anciennes</title>
+            <biblScope unit="volume" from="29" to="29">29</biblScope>
+            (<date>1955</date>)
+            <biblScope unit="page" from="39" to="44">39-44</biblScope>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-12">
+          <analytic>
+            <title level="a">Le mot ›ISTORIA‹ chez Aristote</title>
+            <author>
+              <persName>
+                <forename full="yes">Pierre</forename>
+                <surname>Louis</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Revue de philologie, de littérature et d’histoire anciennes</title>
+            <imprint>
+              <date>1955</date>
+            </imprint>
+            <biblScope unit="volume" from="29" to="29">29</biblScope>
+            <biblScope unit="page" from="39" to="44">39-44</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-12">
+          <analytic>
+            <title level="a">Le mot ›ISTORIA‹ chez Aristote</title>
+            <author>
+              <persName>
+                <forename full="yes">Pierre</forename>
+                <surname>Louis</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Revue de philologie, de littérature et d’histoire anciennes</title>
+            <imprint>
+              <date>1955</date>
+            </imprint>
+            <biblScope unit="volume" from="29" to="29">29</biblScope>
+            <biblScope unit="page" from="39" to="44">39-44</biblScope>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-13">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[13 Arno Seifert, Cognitio Historica: Die Geschichte als Namensgeberin der frühneuzeitlichen Empirie, Berlin 1976.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="13"
+               type="footnote"
+               place="bottom">
+          <label>13</label>
+          <bibl>Arno Seifert, Cognitio Historica: Die Geschichte als Namensgeberin der frühneuzeitlichen Empirie, Berlin 1976</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="13"
+               type="footnote"
+               place="bottom">
+          <label>13</label>
+          <bibl xml:id="bibl-13">
+            <author>
+              <persName>
+                <forename full="yes">Arno</forename>
+                <surname>Seifert</surname>
+              </persName>
+            </author>,
+            <title level="m">Cognitio Historica: Die Geschichte als Namensgeberin der frühneuzeitlichen Empirie</title>,
+            <pubPlace>Berlin</pubPlace>
+            <date>1976</date>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-13">
+          <monogr>
+            <title level="m">Cognitio Historica: Die Geschichte als Namensgeberin der frühneuzeitlichen Empirie</title>
+            <author>
+              <persName>
+                <forename full="yes">Arno</forename>
+                <surname>Seifert</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1976</date>
+              <pubPlace>Berlin</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-13">
+          <monogr>
+            <title level="m">Cognitio Historica: Die Geschichte als Namensgeberin der frühneuzeitlichen Empirie</title>
+            <author>
+              <persName>
+                <forename full="yes">Arno</forename>
+                <surname>Seifert</surname>
+              </persName>
+            </author>
+            <imprint>
+              <date>1976</date>
+              <pubPlace>Berlin</pubPlace>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-14">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[14 Siehe hierzu die aufschlussreichen Bemerkungen von Gian Biagio Conte, Genres and Readers: Lucretius, Love Elegy, Pliny’s Encyclopedia [1991], übersetzt von Glenn W. Most, mit einem Vorwort von Charles Segal, Baltimore, London 1994, 91–94.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="14"
+               type="footnote"
+               place="bottom">
+          <label>14</label>
+          Siehe hierzu die aufschlussreichen Bemerkungen von
+          <bibl>Gian Biagio Conte, Genres and Readers: Lucretius, Love Elegy, Pliny’s Encyclopedia [1991], übersetzt von Glenn W. Most, mit einem Vorwort von Charles Segal, Baltimore, London 1994, 91–94</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="14"
+               type="footnote"
+               place="bottom">
+          <label>14</label>
+          Siehe hierzu die aufschlussreichen Bemerkungen von
+          <bibl xml:id="bibl-14">
+            <author>
+              <persName>
+                <forename full="yes">Gian Biagio</forename>
+                <surname>Conte</surname>
+              </persName>
+            </author>,
+            <title level="m">Genres and Readers: Lucretius, Love Elegy, Pliny’s Encyclopedia</title>
+            [<date>1991</date>], übersetzt von
+            <editor role="translator">
+              <persName>
+                <forename full="yes">Glenn W.</forename>
+                <surname>Most</surname>
+              </persName>
+            </editor>, mit einem Vorwort von
+            <editor role="preface">
+              <persName>
+                <forename full="yes">Charles</forename>
+                <surname>Segal</surname>
+              </persName>
+            </editor>,
+            <pubPlace>Baltimore</pubPlace>,
+            <pubPlace>London</pubPlace>
+            <date>1994</date>,
+            <citedRange unit="page" from="91" to="94">91-94</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-14">
+          <monogr>
+            <title level="m">Genres and Readers: Lucretius, Love Elegy, Pliny’s Encyclopedia</title>
+            <author>
+              <persName>
+                <forename full="yes">Gian Biagio</forename>
+                <surname>Conte</surname>
+              </persName>
+            </author>
+            <editor role="translator">
+              <persName>
+                <forename full="yes">Glenn W.</forename>
+                <surname>Most</surname>
+              </persName>
+            </editor>
+            <editor role="preface">
+              <persName>
+                <forename full="yes">Charles</forename>
+                <surname>Segal</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date type="originalPublication">1991</date>
+              <date>1994</date>
+              <pubPlace>Baltimore</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="91" to="94">91-94</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-14">
+          <monogr>
+            <title level="m">Genres and Readers: Lucretius, Love Elegy, Pliny’s Encyclopedia</title>
+            <author>
+              <persName>
+                <forename full="yes">Gian Biagio</forename>
+                <surname>Conte</surname>
+              </persName>
+            </author>
+            <editor role="translator">
+              <persName>
+                <forename full="yes">Glenn W.</forename>
+                <surname>Most</surname>
+              </persName>
+            </editor>
+            <editor role="preface">
+              <persName>
+                <forename full="yes">Charles</forename>
+                <surname>Segal</surname>
+              </persName>
+            </editor>
+            <imprint>
+              <date type="originalPublication">1991</date>
+              <date>1994</date>
+              <pubPlace>Baltimore</pubPlace>
+              <pubPlace>London</pubPlace>
+            </imprint>
+          </monogr>
+          <citedRange unit="page" from="91" to="94">91-94</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+  <instance xml:id="instance-15">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[15 Francis Bacon, Parasceve ad historiam naturalem, et experimentalem, in: Works (Fn. 11), Bd. 11, 414; ders., Advancement, in ebd., Bd. 2, 102–106.]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="15"
+               type="footnote"
+               place="bottom">
+          <label>15</label>
+          <bibl>Francis Bacon, Parasceve ad historiam naturalem, et experimentalem, in: Works (Fn. 11), Bd. 11, 414</bibl>; <bibl>ders., Advancement, in ebd., Bd. 2, 102–106</bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="15"
+               type="footnote"
+               place="bottom">
+          <label>15</label>
+          <bibl xml:id="bibl-15a">
+            <author xml:id="author-15a">
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>,
+            <title level="a">Parasceve ad historiam naturalem, et experimentalem</title>, in:
+            <title level="m" xml:id="title-m-15a">Works</title>
+            (<ref type="footnote" target="#note-11">Fn. 11</ref>),
+            <biblScope unit="volume" from="11" to="11">Bd. 11</biblScope>,
+            <citedRange unit="page" from="414" to="414">414</citedRange>
+          </bibl>;
+          <bibl xml:id="bibl-15b">
+            <author>
+              <ref type="pers-cit" target="#author-15a">ders.</ref>
+            </author>,
+            <title level="a" type="short">Advancement</title>, in
+            <ref type="op-cit" target="#title-m-15a">ebd.</ref>,
+            <biblScope unit="volume" from="2" to="2">Bd. 2</biblScope>,
+            <citedRange unit="page" from="102" to="106">102–106</citedRange>
+          </bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-15a">
+          <analytic>
+            <title level="a">Parasceve ad historiam naturalem, et experimentalem</title>
+            <author xml:id="authorStruct-15a">
+              <persName>
+                <forename full="yes">Francis</forename>
+                <surname>Bacon</surname>
+              </persName>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="m" xml:id="titleStruct-m-15a">Works</title>
+            <imprint>
+              <date></date>
+            </imprint>
+            <biblScope unit="volume" from="11" to="11">Bd. 11</biblScope>
+            <ref type="footnote" target="#note-11">Fn. 11</ref>
+          </monogr>
+          <citedRange unit="page" from="414" to="414">414</citedRange>
+        </biblStruct>
+        <biblStruct source="#bibl-15b">
+          <analytic>
+            <title level="a" type="short">Advancement</title>
+            <author>
+              <ref type="pers-cit" target="#author-15a">ders.</ref>
+            </author>
+          </analytic>
+          <monogr>
+            <ref type="op-cit" target="#title-m-15a">ebd.</ref>
+            <imprint>
+              <date></date>
+            </imprint>
+            <biblScope unit="volume" from="2" to="2">Bd. 2</biblScope>
+          </monogr>
+          <citedRange unit="page" from="102" to="106">102–106</citedRange>
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-X">
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+
+
+
+    <biblStruct>
+      <monogr>
+        <title level="m">Leviathan</title>
+        <author>
+          <persName>
+            <forename>Thomas</forename>
+            <surname>Hobbes</surname>
+          </persName>
+        </author>
+        <author>
+          <persName>
+            <forename>C. B.</forename>
+            <surname>Macpherson</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1968</date>
+          <pubPlace>Harmondsworth</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <author>
+          <persName>
+            <forename>Iring</forename>
+            <surname>Fetscher</surname>
+          </persName>
+        </author>
+        <author>
+          <persName>
+            <forename>Walter</forename>
+            <surname>Euchner</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1966</date>
+          <pubPlace>Neuwied und Berlin</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">A further Account of Mr. Boyle's Experimental History of Cold</title>
+      </analytic>
+      <monogr>
+        <title level="j">Philosophical Transactions [im folgenden abgekürzt mit PTRS]</title>
+        <imprint>
+          <date>1665-66</date>
+        </imprint>
+        <biblScope unit="volume">I</biblScope>
+        <biblScope unit="page">46-52</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Preface</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1674-75</date>
+        </imprint>
+        <biblScope unit="volume">IX-X</biblScope>
+        <biblScope unit="page">1-3</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Histoire de l'Académie Royale des Sciences. Année MDCXCIX</title>
+      </analytic>
+      <monogr>
+        <imprint>
+          <date>1734</date>
+          <pubPlace>Amsterdam</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Some Observations and Experiments about Vitriol, tending to find out the Nature of that Substance and to give further Light in the Inquiry after the Principles and Properties of other Minerals</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1674-75</date>
+        </imprint>
+        <biblScope unit="volume">IX-X</biblScope>
+        <biblScope unit="page">41-47</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">diverses observations anatomiques diverses observations de physique générale</title>
+      </analytic>
+      <monogr>
+        <title level="m">Histoire et Mémoires de l'Académie Royale des Sciences</title>
+        <imprint>
+          <date>1686-99</date>
+        </imprint>
+        <biblScope unit="volume">2</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Réponse de Mr. Hook aux considérations de Mr. Auzout, contenuë dans une Lettre écrite à l'Auteur des Philosophical Transactions [i. e. Henry Oldenburg]. Traduite d'Anglais</title>
+      </analytic>
+      <monogr>
+        <title level="j">Mémoires de l'Académie Royale des Sciences Depuis 1666 jusqu'à 1699</title>
+        <biblScope unit="volume">7</biblScope>
+        <biblScope unit="page">77-84</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Mr. Newton's Answer to the precedent Letter [from Anthony Lucas], sent to the Publisher</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1676-77/78</date>
+        </imprint>
+        <biblScope unit="volume">XI-XII</biblScope>
+        <biblScope unit="page">692-698, 703</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Strange Facts, Plain Facts and the Texture of Scientific Experience in the Enlightenment</title>
+        <author>
+          <persName>
+            <forename>Lorraine</forename>
+            <surname>Daston</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Proof and Persuasion: Essays on Authority, Objectivity and Evidence</title>
+        <editor>
+          <persName>
+            <forename>Suzanne</forename>
+            <surname>Marchand</surname>
+          </persName>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Elizabeth</forename>
+            <surname>Lunbeck</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1996</date>
+          <pubPlace>Turnhout</pubPlace>
+        </imprint>
+        <biblScope unit="page">42-59</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Les unes sont de faict, les autres peuvent estre appellées des choses de droit</title>
+        <author>
+          <persName>
+            <forename>M.</forename>
+            <surname>Perrault</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Procès-Verbaux de l'Académie Royale des Sciences</title>
+        <imprint>
+          <date>1666 avril 1668</date>
+        </imprint>
+        <biblScope unit="volume">1</biblScope>
+        <biblScope unit="page">23</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">An Essay of Dr. John Wallis, Exhibiting His Hypothesis about the Flux and Reflux of the Sea, Taken from the Consideration of the Common Center of Gravity of the Earth and Moon</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1665-66</date>
+        </imprint>
+        <biblScope unit="volume">I</biblScope>
+        <biblScope unit="page">263-281</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Dr. Molineux's Historical Account of the late General Coughs and Colds; with some Observations on other Epidemickal Distempers</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1694</date>
+        </imprint>
+        <biblScope unit="volume">XVIII</biblScope>
+        <biblScope unit="page">105-111</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Mr. Newton's Answer to the precedent Letter [from Anthony Lucas]</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1676-77/78</date>
+        </imprint>
+        <biblScope unit="volume">XI-XII</biblScope>
+        <biblScope unit="page">692-698, 703</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Baconian Facts, Academic Civility and the Prehistory of Objectivity</title>
+        <author>
+          <persName>
+            <forename>Lorraine</forename>
+            <surname>Daston</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Rethinking Objectivity</title>
+        <editor>
+          <persName>
+            <forename>Allan</forename>
+            <surname>Megill</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1994</date>
+          <pubPlace>Durham, London</pubPlace>
+        </imprint>
+        <biblScope unit="page">37-64</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Law and Fact in Legal Development</title>
+        <author>
+          <persName>
+            <forename>S. F. C.</forename>
+            <surname>Milsom</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">University of Toronto Law Journal</title>
+        <imprint>
+          <date>1967</date>
+        </imprint>
+        <biblScope unit="volume">17</biblScope>
+        <biblScope unit="page">1-19</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">L'Ordo Judiciarius medioevale (Riflessioni su un modello puro di ordine isonomico)</title>
+        <author>
+          <persName>
+            <forename>A.</forename>
+            <surname>Giuliani</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Rivista di diritto processuale</title>
+        <imprint>
+          <date>1988</date>
+        </imprint>
+        <biblScope unit="volume">43</biblScope>
+        <biblScope unit="page">598-614</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">A History of English Law</title>
+        <author>
+          <persName>
+            <forename>William</forename>
+            <surname>Holdsworth</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1903</date>
+        </imprint>
+        <biblScope unit="volume">1</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">A History of English Law</title>
+        <author>
+          <persName>
+            <forename>William</forename>
+            <surname>Blackstone</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1903</date>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Culture of Fact</title>
+        <author>
+          <persName>
+            <forename>Barbara</forename>
+            <surname>Shapiro</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1903</date>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">in den Diskussionen darüber, ob der Geist beständig denke, selbst im Schlaf, müsse man diese Unterscheidung genauestens beachten: »Da die Frage eine Tatsache betrifft, geht man an ihr vorbei, wenn man als Beweis eine Hypothese beibringt, die eben das behauptet, was strittig ist.</title>
+        <author>
+          <persName>
+            <forename>John</forename>
+            <surname>Locke</surname>
+          </persName>
+        </author>
+        <author>
+          <persName>
+            <forename>Alexander</forename>
+            <surname>Campbell Fraser</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">An Essay Concerning Human Understanding</title>
+        <imprint>
+          <date>1690</date>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Die Rechtslehrer, wenn sie von Befugnissen und Anmaßungen reden, unterscheiden in einem Rechtshandel die Frage über das, was Rechtens ist (quid juris), von der, die die Tatsache angeht (quid facti) ...&lt;&lt;</title>
+        <author>
+          <persName>
+            <forename>Immanuel</forename>
+            <surname>Kant</surname>
+          </persName>
+        </author>
+        <author>
+          <persName>
+            <forename>Raymund</forename>
+            <surname>Schmidt</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Kritik der reinen Vernunft</title>
+        <imprint>
+          <date>1781/1787</date>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Argument des Aphorismes</title>
+        <author>
+          <persName>
+            <forename>E.</forename>
+            <surname>Littré</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Œuvres complètes d'Hippocrate</title>
+        <editor>
+          <persName>
+            <forename>E.</forename>
+            <surname>Littré</surname>
+          </persName>
+        </editor>
+        <biblScope unit="volume">4</biblScope>
+        <biblScope unit="page">396-457</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Zur Bedeutungsgeschichte des Wortes &gt;Aphorismus&lt;</title>
+        <author>
+          <persName>
+            <forename>Jürgen von</forename>
+            <surname>Stackelberg</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Der Aphorismus: Zur Geschichte, zu den Formen und Möglichkeiten einer literarischen Gattung</title>
+        <editor>
+          <persName>
+            <forename>Gerhard</forename>
+            <surname>Neumann</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1976</date>
+          <pubPlace>Darmstadt</pubPlace>
+        </imprint>
+        <biblScope unit="page">209-225</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Medicina della memoria. Aforistica ed esemplarità nella scrittura barocca</title>
+        <author>
+          <persName>
+            <forename>Linda</forename>
+            <surname>Bisello</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1998</date>
+          <pubPlace>Firenze</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Bouquets de fleurs et colliers de perles: sur les recueils de formes brèves au XVIe siècle</title>
+        <author>
+          <persName>
+            <forename>Claudie</forename>
+            <surname>Balavoine</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Les Formes brèves de la prose et le discours discontinu</title>
+        <editor>
+          <persName>
+            <forename>Jean</forename>
+            <surname>Lafond</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1984</date>
+          <pubPlace>Paris</pubPlace>
+        </imprint>
+        <biblScope unit="page">51-72</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Examen continué de diverses eaux minerales</title>
+      </analytic>
+      <monogr>
+        <title level="j">Procès-Verbaux de l'Académie Royale des Sciences</title>
+        <imprint>
+          <date>1666 - avril 1668</date>
+        </imprint>
+        <biblScope unit="volume">1</biblScope>
+        <biblScope unit="page">141-170</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Inquiries for Suratte and other parts of the East-Indies</title>
+      </analytic>
+      <monogr>
+        <title level="j">PTRS</title>
+        <imprint>
+          <date>1667</date>
+        </imprint>
+        <biblScope unit="volume">II</biblScope>
+        <biblScope unit="page">415-419</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Histoire de renouvellement de l'Académie Royale des Sciences en M.DC.XCIX. et les éloges historiques</title>
+        <author>
+          <persName>
+            <forename>Bernard de</forename>
+            <surname>Fontenelle</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1709</date>
+          <pubPlace>Amsterdam</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Eine kurze Geschichte der wissenschaftlichen Aufmerksamkeit</title>
+        <author>
+          <persName>
+            <forename>Lorraine</forename>
+            <surname>Daston</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>2001</date>
+          <pubPlace>München</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Zum Gegenstand: Konkrete Beschreibungen und allgemeine Leitsätze</title>
+        <author>
+          <persName>
+            <forename>Roger</forename>
+            <surname>Chartier</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="m">Historisch-kritisches Wörterbuch des Historismus</title>
+        <editor>
+          <persName>
+            <forename>Lorenz</forename>
+            <surname>Jäger</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1994</date>
+          <pubPlace>Tübingen</pubPlace>
+        </imprint>
+        <biblScope unit="page">287-305</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Rechtsgeschichte als Kunstprodukt. Zur Entbehrlichkeit von &gt;&gt; Begriff&lt;&lt; und &gt;Tatsache&lt;</title>
+        <author>
+          <persName>
+            <forename>Michael</forename>
+            <surname>Stolleis</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1997</date>
+          <pubPlace>Baden-Baden</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Œuvres complètes d'Hippocrate</title>
+        <author>
+          <persName>
+            <forename>E.</forename>
+            <surname>Littré</surname>
+          </persName>
+        </author>
+        <editor>
+          <persName>
+            <forename>E.</forename>
+            <surname>Littré</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1962</date>
+          <pubPlace>Amsterdam</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Attention. A Historical Summary of the Discussions concerning the Subject</title>
+        <author>
+          <persName>
+            <forename>Lemon L.</forename>
+            <surname>Uhl</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1890</date>
+          <pubPlace>Baltimore</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Absorption and Theatricality: Painting and Beholder in the Age of Diderot</title>
+        <author>
+          <persName>
+            <forename>Michael</forename>
+            <surname>Fried</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1980</date>
+          <pubPlace>Berkeley, Los Angeles, London</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Suspensions of Perception: Attention, Spectacle and Modern Culture</title>
+        <author>
+          <persName>
+            <forename>Jonathan</forename>
+            <surname>Crary</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1999</date>
+          <pubPlace>Cambridge, Mass., London</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Richardson, Diderot et la lectrice impatiente</title>
+        <author>
+          <persName>
+            <forename>Roger</forename>
+            <surname>Chartier</surname>
+          </persName>
+        </author>
+      </analytic>
+      <monogr>
+        <title level="j">Modern Language Notes</title>
+        <imprint>
+          <date>1999</date>
+        </imprint>
+        <biblScope unit="volume">114</biblScope>
+        <biblScope unit="page">647-666</biblScope>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <monogr>
+        <title level="m">Strange Fits of Passion: Epistemologies of Emotion, Hume to Austen</title>
+        <author>
+          <persName>
+            <forename>Adela</forename>
+            <surname>Pinch</surname>
+          </persName>
+        </author>
+        <imprint>
+          <date>1996</date>
+          <pubPlace>Stanford</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Aufmerksamkeit</title>
+      </analytic>
+      <monogr>
+        <editor>
+          <persName>
+            <forename>Norbert</forename>
+            <surname>Haas</surname>
+          </persName>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Rainer</forename>
+            <surname>Nägele</surname>
+          </persName>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Hans-Jörg</forename>
+            <surname>Rheinberger</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>1998</date>
+          <pubPlace>Eggingen</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+    <biblStruct>
+      <analytic>
+        <title level="a">Aufmerksamkeiten</title>
+      </analytic>
+      <monogr>
+        <editor>
+          <persName>
+            <forename>Aleida</forename>
+            <surname>Assmann</surname>
+          </persName>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Jan</forename>
+            <surname>Assmann</surname>
+          </persName>
+        </editor>
+        <imprint>
+          <date>2001</date>
+          <pubPlace>München</pubPlace>
+        </imprint>
+      </monogr>
+    </biblStruct>
+
+  <instance xml:id="instance-X">
+    <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+    <input type="raw"><![CDATA[X ]]></input>
+    <output type="segmented-instance">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="X"
+               type="footnote"
+               place="bottom">
+          <label>X</label>
+          <bibl></bibl>.
+        </note>
+    </output>
+    <output type="bibl">
+        <note xmlns="http://www.tei-c.org/ns/1.0"
+               n="X"
+               type="footnote"
+               place="bottom">
+          <label>X</label>
+          <bibl xml:id="bibl-X"></bibl>.
+        </note>
+    </output>
+    <output type="biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-X">
+        </biblStruct>
+      </listBibl>
+    </output>
+    <output type="resolved-biblstruct">
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+        <biblStruct source="#bibl-X">
+        </biblStruct>
+      </listBibl>
+    </output>
+  </instance>
+</dataset>

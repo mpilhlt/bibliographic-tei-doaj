@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/10.60082/2817-5069.2531">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Morton, J. D.: "Burdens of Proof and the Doctrine of Recent Possession", in: Osgoode Hall Law Journal 1/2 (1959), pp. 72-81, https://doi.org/10.60082/2817-5069.2531</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 (1914), 11 Cr. App. R. 45.
+2 [1957] O.R. 337 (C.A.).
+3 [1958] O.R. 723 (C.A.).
+4 [1958] O.R. 499 (C.A.).
+5 R. v. Morin at p. 3 4 1 per Laidlaw J.A.
+6 Ibid., at p. 341.
+7 Ibid., at p. 341.
+8 Special Lectures: Evidence, Law Society of Upper Canada (1955).
+9 R. v. O'Keefe, ante footnote 4 at p. 502, per Laidlaw, J.A.
+10 Ante footnote I at p. 49, per Reading, L.C.J.
+11 R. v. O'Keefe, [19581 O.R. 499, at p. 505 (C.A.).
+12 Ibid., at p. 505.
+13 Ibid., at p. 505.
+14 Ibid., at p. 505.
+15 Ibid., at p. 505.
+16 Ibid., at p. 505.
+17 Ibid., at p. 506.
+18 Ibid., at p. 507.
+19 [1935] A.C. 462.
+20 R. v. O'Keefe, ante at p. 509.
+21 Ibid., at pp. 509, 510.
+22 Glanville Williams in his Criminal Law, The General Part (1953), at p. 698, advances the converse proposition that the trial judge may test the defendant's evidence in rebuttal in order to see whether it is fit to be left to the jury. In this view, the trial judge, at the end of the course, would consider the reasonableness of an explanation advanced by accused before permitting that explanation to go to the jury. It would appear that there Is no authority for such proposition if one appreciates that the remarks, e.g. In Eichler v. The King, [19391 S.C.R. 101, as to the trial judge applying his mind to the reasonableness of the explanation, refer to a trial judge sitting alone. He is then to apply his mind to such a question just as the jury must do. Mancini v. D.P.P., [1942] A.C. 1, is authority for an unrelated proposition that a trial judge need not put evidence to a jury, which even if believed by the jury would not amount to a defence in law.
+23 R. v. O'Keefe, ante at p. 509.
+24 Ibid., at p. 502.
+25 Ibid., at p. 502.
+26 R . v. Hogg, [1958) O.R. 723 at pp. 727, 728 (italics added).
+27 [19391 S.C.R. 101.
+28 (1914), 11 Cr. App. R. 45.
+29 [1950) S.C.R. 430.
+30 R. v. Hogg at 729.
+31 (1906), 11 O.L.R. 440, at p. 448, per Osler J.A.
+32 B. v. Hepworth and Fearnley, [1955] 2 Q.B. 600, at pp. 602, 603, per Goddard, L.C.J.
+-->

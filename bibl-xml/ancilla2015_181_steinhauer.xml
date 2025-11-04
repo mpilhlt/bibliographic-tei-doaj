@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://www.anci.ch/articles/ancilla2015_181_steinhauer.pdf">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Steinhauer, Fabian: "Vom Scheiden/On Parting", in: Ancilla Iuris. International Law and Ethics (anci.ch) (2015), pp. 181-217, https://www.anci.ch/articles/ancilla2015_181_steinhauer.pdf</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 Juristische Kulturtechniken besorgen die Übertragung und die Reproduktion der Gesetze, dazu: Cornelia Vismann, Kulturtechnik und Souveränität, in: Cornelia Vismann (Hrsg.), Das Recht und seine Mittel (2012), S. 445–459; Cornelia Vismann, In iudicio stare. Kulturtechniken des Rechts, in: Gephardt (Hrsg.), Rechtsanalyse als Kulturforschung (2012), S. 323–334; allgemein: Harun Maye, Was ist eine Kulturtechnik?, ZMK (2010), S. 121–135; Sybille Krämer/Horst Bredekamp, Kultur, Technik, Kulturtechnik: Wider die Diskursivierung der Kultur, in: Sybille Krämer/Horst Bredekamp (Hrsg.), Bild‐Schrift‐Zahl (2003), S. 11–22.
+2 Yan Thomas, Les opérations du droit (2011).
+3 Bruno Latour, La fabrique du droit (2002); Alain Pottage/Martha Mundy, Law, Anthropology, and the Constitution of the Social: Making Persons and Things (2004). Zu Latours Distanzierung vom Begriff der Technik siehe auch die Übersetzung Bruno Latour, Eine seltsame Form von Autonomie, ZMK (2011), S. 113–140, 133 f.
+4 Zu diesem Begriff (der eher gesetzt als definiert wird): Armin von Bogdandy/Ingo Venzke, In wessen Namen? Internationale Gerichte in Zeiten globalen Regierens (2014), S. 152–154.
+5 Z.B. allgemein Sybille Krämer/Horst Bredekamp, Kultur, Technik, Kulturtechnik: Wider die Diskursivierung der Kultur, in: Sybille Krämer/Horst Bredekamp (Hrsg.), Bild‐Schrift‐Zahl (2003); im Recht Hermann Jahrreiss, System des deutschen Verfassungsrechts in Tafeln und Übersichten (1930).
+6 Manfred Schneider, Transparenztraum. Literatur, Politik, Medien und das Unmögliche (2013).
+7 Armin Adam/Martin Stingelin, Übertragung und Gesetz. Gründungsmythen, Kriegstheater und Unterwerfungstechniken von Institutionen (1995).
+8 U.a. Pierre Legendre, Das politische Begehren Gottes. Studien über die Montagen des Staates und des Rechts (2012). Legendre verwendet den Begriff in einer Kombination aus Häufigkeit und Beiläufigkeit. Es wird deutlich, dass der Begriff zu Legendres Interessen an technischen Figuren und am Kino passt.
+9 Der graphologische Vorgang hat auf der Ebene der technischen Operationen u.a. Merkmale, die Roland Barthes (mit Leroi‐Gourhan) als „Schrift“ und „Graphismus“ unterschieden und auseinandergehalten hat, Roland Barthes, Variationen über die Schrift (2006). Er kommt also als Niederlegen von Sprache, Schreiben, Ritzen, Kerben, Drücken, Zeichnen und in vielfältigen Trennungs‐ und Mischformen vor. In dem Begriff gibt es einen Spielraum, der (wie in der Entwicklung von Barthes’ Verständnis der Schrift und „Schreibung“) von Zeichen semantischer Macht bis hin zur unbegriffenen Kraft von Linien und damit auch vom Metaphorischen bis hin zum Material reicht.
+10 Fritz Schulz, Prinzipien des römischen Rechts (1954). Das war auch Gegenstand seiner letzten Vorlesung 1933 in Berlin.
+11 Ders., S. 13.
+12 Diese spezifische Formulierung taucht (im Anschluss an ältere Formulierungen wie das „destillieren“ und ältere Gedanken zur Trennung und Isolierung) in Iherings Geist des römischen Rechts z.B. in Teil 2 Bd. 1 (1854) auf: „Zersetzung des Stoffes, Auffindung der einfachen Elemente, ist also der in der innersten Notwendigkeit der Sache selbst gelegene Weg zum Ziel. Es bewährt sich hier eine Bemerkung, die wir früher bei einer anderen Gelegenheit zu machen hatten, daß das Wesen des Rechts in Zersetzen, Scheiden, Trennen besteht. Die juristische Technik lässt sich nach dieser Seite hin als eine Chemie des Rechts bezeichnen, als die juristische Scheidekunst, welche die einfachen Körper sucht“, Rudolf von Jhering, Geist des römischen Rechts auf den verschiedenen Stufen seiner Entwicklung Bd. 2 (1858), S. 361; „Seine Kunst ist Scheidekunst“ heißt es später über den „jugendlichen Geist“ des römischen Rechts im Kapitel über „Technik“ und „Analytik“ bei Ders., Geist des römischen Rechts auf den verschiedenen Stufen seiner Entwicklung Bd. 3 (1865), S. 42. Ihering stützt sich an dieser Stelle nicht nur auf Ciceros „De Legibus“, sondern auch auf die „mosaische Schöpfungsgeschichte“. Wenn Schulz im Verlauf seiner Argumentation Rom mit den Vorsokratikern beginnen lässt, dann lässt Ihering Rom mit dem mosaischen Mythos beginnen. Die Scheidekunst beschreibt er wiederum als „Zersetzung“ und stellt dazu die medienhistorische These auf, dass „erst das Alphabet gefunden sein [musste], bevor man ans Lesen und Schreiben denken konnte!“, S. 42. Eine bekannte Kritik daran findet man bei Karl Larenz, Methodenlehre der Rechtswissenschaft (1991), S. 27. Larenz verändert sogar die Zitate von Ihering, er setzt hinter das Wort „Körper“ Ausrufezeichen, die man bei Ihering nicht findet. Larenz wendet sich gegen das Zersetzende, und mit seinen laufenden Markierungen durch Ausrufezeichen ist es fast so, als wolle er den Körper immer wieder zusammensetzen, den er bei Ihering auseinandergenommen sieht.
+13 Fritz Schulz, Prinzipien des römischen Rechts (1954), S. 13 ff.
+14 Yan Thomas, Mommsen et ‚L’Isolierung‘ Du Droit (1984).
+15 Niklas Luhmann, Ausdifferenzierung des Rechtssystems, in: Niklas Luhmann (Hrsg.), Ausdifferenzierung des Rechts. Beiträge zur Rechtssoziologie und Rechtstheorie (1999), S. 35–52.
+16 Niklas Luhmann, Das Recht der Gesellschaft (1993), S. 43.
+17 Fritz Schulz, Prinzipien des römischen Rechts (1954), S. 14.
+18 Fritz Schulz, Prinzipien des römischen Rechts (1954), S. 13.
+19 Carl Schmitt, Gesetz und Urteil (2009), S. 34. Er meinte damit, dass die urteilende Tätigkeit des Richters nicht einfach das Gesetz wiedergibt. Richter schreiben nicht einfach Gesetze ab, wenn sie Urteile schreiben, und sie sind nicht (die unvermeidliche Wiederholung eines alten und verkürzten Motives von Montesquieu taucht bei ihm auf) der Mund des Gesetzes. In diesem Kontext schließt Schmitt aber nicht nur an das altehrwürdige und reine Sprechorgan, den Mund, an. Er kommt auch aufs Gesäß. Schmitts gewagte Figur vom „eigenen Sekret“ reichert die Justiztheorie und die Kritik am Gesetz also noch einmal provokativ an: Was Richter schreiben ist vom Gesetz ausgesondert, es ist eigen. Damit schreibt Schmitt das Narrativ von der juristischen Autonomie nicht so ohne Weiteres fort. Was geschrieben wird, ist auch geheimnisvoll. Schmitt gibt der Kritik noch etwas Frivoles mit, weil er die Figur des eigenen Sekrets nicht nur in die Tradition des Arkanen, seiner Selbstkontrollen und abgeschirmten Zirkel stellt. Seine Figur ist auch mit Ausscheidungen, Verdauungen, Fermentierunen, Speichel und Drüsen des Richters assoziierbar. Was Sekrete produziert gehört nicht nur zum unbewussten, routinierten und verschämten Teil eines juristischen Organs. Es überschreitet in der Produktion auch das Organische zum Anorganischen. Das Eigene des Rechts spielt sich insofern vielleicht innerhalb einer Idee der Autonomie ab. Innerhalb dieser Idee, ihrem Maß und ihren Grenzen hält Schmitt mit der Figur des eigenen Sekrets aber das Maß‐ und Grundlose des Urteilens fest. Die Figur zielt auf Exzesse, die mit und innerhalb der hochgelobten „Scheidekünste“ des Rechts mitlaufen. Zur Figur des Sekrets weiter Manfred Schneider, Leporellos Amt. Das Sekretariat der Sekrete, in: Vogl/Siegert (Hrsg,), Europa. Kultur der Sekretäre (2009), S. 147–162; zugespitzt Vladimir Sorokin, Norma (1999).
+20 Fritz Schulz, Prinzipien des römischen Rechts (1954), S. 13.
+21 Aristoteles, de gen. et corr. A 1. 314a 18. Aristoteles liefert im ersten Teil eine andere Wortfolge, die mit dem Gesammelten oder Gleichen anfängt. Er wählt dann noch im zweiten Teil (ähnlich wie Schulz) zwei Verben, vielleicht um einerseits die schneidende Auseinandersetzung und andererseits die Vollständigkeit des Ordnens zu betonen.
+22 Noch einmal komplexer wird der Sinn durch das, was Diogenes weiter an Aussagen über Anaxagoras überliefert, und die sich wie eine Verkehrung von Anaxagoras Scheidung ausmachen, weil sie betonen, dass Anaxagoras eigener Geist „zueinanderordnete“, was zuerst zerstreut war: „καί που Ἀναξαγόρην φάσʹ ἔμμεναι ἄλκιμον ἥρω Νοῦν, ὅτι δὴ νόος αὐτῷ, ὃς ἐξαπίνης ἐπεγείρας πάντα συνεσφήκωσεν ὁμοῦ τεταραγμένα πρόσθεν / Von Anaxagoras heißt es: er war ein wehrhafter Heros, Geist mit Namen; denn Geist besaß er, der alles auf einmal ordnete zueinander, was vorher wirr und zerstreut war.“, Anaxagoras VS 59 A1/ Diogenes 2, 6–15
+23 Dirk Baecker, Form und Formen der Kommunikation (2005).
+24 Claude Lévi‐Strauss, Traurige Tropen (1978), S. 288–300.
+25 Fritz Schulz, Prinzipien des römischen Rechts (1954), S. 14.
+26 Ich beziehe mich auf Stefanie Günthners laufendes Projekt „Magis und Minusʺ.
+27 Über die strukturale Ähnlichkeit zwischen Kino und Gericht Cornelia Vismann, Medien der Rechtsprechung (2012), S. 190–215.
+28 In Bezug auf das Recht Immanuel Kant, Kritik der praktischen Vernunft (1974), S. 191–212.
+29 Die Szene ist auch auf Youtube zu sehen: http://www.youtube.com/watch?v=5qFAYmkFNK0, zuletzt besucht am: 19. Januar 2014.
+30 Zu der Figur im Kontext des Gerichts Cornelia Vismann, Medien der Rechtsprechung (2012), S. 340.
+31 U.a. Jacques Vergès, De la strategie judicaire (1968); dazu Jonathan Widell/Jacques Vergès, Devil’s Advocate. A Psychohistory of Vergès’ Judicial Strategy (2012); Cornelia Vismann, Medien der Rechtsprechung (2012), S. 181.
+32 Barbet Schroeder, Im Auftrag des Terrors (Film) (2007); Bernard Violet, Le Maître de l’ombre (2000).
+33 Jacques Derrida, Gesetzeskraft. Der ‚mystische Grund der Autorität‘ (1991), S. 74.
+34 Cornelia Vismann, Medien der Rechtsprechung (2012), S. 182.
+35 Rupert Gaderer, Q – Querulanz. Skizze eines exzessiven Rechtsgefühls (2012).
+36 Manfred Schneider, Transparenztraum. Literatur, Politik, Medien und das Unmögliche (2013), S. 16.
+37 Bernhard Siegert, Perpetual Doomsday, in: Bernhard Siegert/Joseph Vogl (Hrsg.), Europa. Kulturder Sekretäre (2003), S. 63–78, S. 63.
+38 Cornelia Vismann, Fluchen in Stein, in: Cornelia Vismann (Hrsg.), Das Recht und seine Mittel (2012), S. 101–111.
+39 Friedrich Nietzsche, Also sprach Zarathustra, KSA 4 (2011), S. 246–269.
+40 Marie‐Theres Fögen, Römische Rechtsgeschichten, Über Ursprung und Evolution eines sozialen Systems (2002), S. 63–124.
+41 Emil Benveniste, Indoeuropäische Institutionen. Wortschatz, Geschichte, Funktionen (1993), S. 371.
+42 Vgl. auch Jacques Lacan, Die Zensur ist nicht der Widerstand, in: Jacques Lacan (Hrsg.), Das Ich in der Theorie Freuds und in der Technik der Psychoanalyse, Das Seminar Buch II (1991), S. 160–173.
+43 Jacques Lacan, Die Zensur ist nicht der Widerstand, in: Jacques Lacan (Hrsg.), Das Ich in der Theorie Freuds und in der Technik der Psychoanalyse, Das Seminar Buch II (1991), S. 160–173, S. 167.
+44 Thomas Vesting, Die Medien des Rechts, Schrift (2011), S. 49–66; Cornelia Vismann, Fluchen in Stein, in: Cornelia Vismann (Hrsg.), Das Recht und seine Mittel (2012), S. 111, spricht von einer „Kaskade“.
+45 Marie‐Theres Fögen, Römische Rechtsgeschichten, Über Ursprung und Evolution eines sozialen Systems (2002), S. 112; Cornelia Vismann, Fluchen in Stein, in: Cornelia Vismann (Hrsg.), Das Recht und seine Mittel (2012), S. 103ff.
+46 Roland Barthes, Variationen über die Schrift (2006), S. 177.
+47 Erhard Schüttpelz, Körpertechniken, ZMK 1 (2010), S. 101–120.
+48 Marcus Fabius Quintilianus, Institutionis Oratoriae, libri 1, S. 27–37.
+49 Cornelia Vismann, Die Macht des Anfangs, ZMK 2 (2011), S. 57–68, S. 61.
+50 „Furche“ ist die Übersetzung, die Helmut Rahn wählt: Quintilian, Ausbildung des Redners, Erster Band (1988), S. 24–25.
+51 Heinrich Triepel, Vom Stil des Rechts, Beiträge zu einer Ästhetik des Rechts (1947), S. 109–115.
+52 André Leroi‐Gourhan, Hand und Wort, Die Evolution von Technik, Sprache und Kunst (1984), S. 296f.
+53 Heinrich Bosse, ‚Die Schüler müssen selbst schreiben lernen‘ oder: Die Einrichtung der Schiefertafel, in: Tobias Nanz/Bernhard Siegert (Hrsg.), ex machina, Beiträge zur Geschichte der Kulturtechniken (2006), S.163–206.
+54 Ina Ebert, Die Normierung der juristischen Staatsexamina und des juristischen Vorbereitungsdienstes in Preußen (1849–1934) (1995).
+55 Weiter: Fabian Steinhauer, Montagen des Rechts, Ein Lehrbuch von Hermann Jahrreiss, ZfM 10 (2014).
+56 Siehe nur zur Teilung und zum Schnitt Giorgio Agamben, Die Zeit, die bleibt. Ein Kommentar zum Römerbrief (2006), S. 56–71.
+57 Nach Lacan wird das Imaginäre und das Symbolische sorgfältig unterschieden. Zu den Komplikationen im Recht gehört aber ein Alltag, in dem diese Dimensionen auch verwechselt werden, Werner Hamacher, Recht im Spiegel, Bemerkung zu einem Satz von Pierre Legendre, in: Georg Mein (Hrsg.), Die Zivilisation des Interpreten, Studien zum Werk Pierre Legendres (2012), S. 201–213.
+58 Bruno Latour, Den Kühen ihre Farbe zurückgeben, Von der ANT und der Soziologie der Übersetzung zum Projekt der Existenzweisen, ZMK 2 (2013), S. 83–100, S. 94.
+59 Roger Caillois, Méduse et Cie (2007), S. 47–52, S. 52.
+-->

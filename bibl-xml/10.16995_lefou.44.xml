@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/10.16995/lefou.44">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Stival, Monica: "Le sujet du (néo)libéralisme", in: Le foucaldien 4/1 (2018), pp. 1–16. https://doi.org/10.16995/lefou.44</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 Michel Foucault, Naissance de la biopolitique: Cours au Collège de France (1978–1979) (Paris: Hautes Études, Gallimard, Seuil, 2004), 225.
+2 Foucault, Naissance de la biopolitique, 248.
+3 Foucault, Naissance de la biopolitique, 248.
+4 Foucault, Naissance de la biopolitique, 123.
+5 Foucault, Naissance de la biopolitique, 122.
+6 Pierre Dardot et Christian Laval, La nouvelle raison du monde: Essai sur la société néolibérale, Poche (Paris: La Découverte, 2010), 152.
+7 Foucault, Naissance de la biopolitique, 123.
+8 Michel Foucault, Sécurité, territoire et population: Cours au Collège de France (1977–1978) (Paris: Hautes Études, Gallimard, Seuil, 2004), 111.
+9 Foucault, Sécurité, territoire et population, 44.
+10 Foucault, Sécurité, territoire et population, 361.
+11 Foucault, Naissance de la biopolitique, 229.
+12 Foucault, Naissance de la biopolitique, 224.
+13 Foucault, Naissance de la biopolitique, 224.
+14 Dardot et Laval, La nouvelle raison du monde, 414.
+15 Michel Foucault, Du gouvernement des vivants: Cours au Collège de France, 1979–1980 (Paris: EHESS, Gallimard, Seuil, 2012), 8.
+16 Foucault, Sécurité, territoire, population, 13.
+17 Foucault, Du gouvernement des vivants, 8.
+18 Dardot et Laval, La nouvelle raison du monde, 410.
+19 Foucault, Sécurité, territoire, population, 284.
+20 Foucault, Sécurité, territoire, population, 458.
+21 Foucault, Naissance de la biopolitique, 265.
+22 Foucault, Naissance de la biopolitique, 265.
+23 Il peut aussi être utile de distinguer concurrence et compétition. Tandis que le premier terme fait référence à la forme des relations, le second désigne la position d'individus déterminés les uns par rapport aux autres (ou par rapport à eux-mêmes).
+24 Dardot et Laval, La nouvelle raison du monde, 419.
+25 Foucault, Naissance de la biopolitique, 124.
+26 Foucault, Naissance de la biopolitique, 124.
+27 Je crois qu'on est plus proche de l'instinct dans le sens nietzschéen que de l'imposition coercitive d'une volonté, dans un sens wébérien.
+28 Dardot et Laval, La nouvelle raison du monde, 458.
+29 Dardot et Laval, La nouvelle raison du monde, 413.
+30 Le mot "épistémologie" n'est pas très précis et peut être sujet à malentendus. Il faut, toutefois, faire référence à cet espace de constitution du sujet à partir d'un corps qui ne présuppose pas une nature, ni une négativité ontologique, ni une détermination transcendantale. Il s'agit alors de la dimension "alèthurgique" où le corps devient sujet à partir de la constitution d'une rationalité – donc, qui précède et définit les limites des pratiques du sujet, son espace de jeu. Au niveau "épistémologique" (ou “anthropologique”, ce qui impliquerait des précautions similaires) on trouve des conditions spécifiques qui circonscrivent l'espace de jeu où se donne la positivité de ce sujet (dans ce cas, libéral, sujet d'intérêt).
+31 En ce sens, peut-être que la compréhension de la concurrence en tant que norme pourrait laisser l'espace à cette possibilité d'imaginer une raison du commun, mais il semble que cela impliquerait d'abandonner l'idée foucaldienne selon laquelle le libéralisme est une rationalité.
+32 Foucault, Naissance de la biopolitique, 225.
+33 Foucault, Les mots et les choses: Une archéologie des sciences humaines (Paris: Gallimard, 2005 [1966]), 333.
+34 Sur la thèse du corps en tant qu'espace vide et sa portée politique, je me permets d'indiquer le travail où les arguments sont développés de manière plus étendue: Monica Stival, Politique et morale chez Foucault: Entre la critique et le nominalisme (Paris: L'Harmattan, 2018).
+35 Foucault, Sécurité, territoire, population, 187.
+36 Dardot et Laval, La nouvelle raison du monde, 459.
+-->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/10.16995/lefou.9">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Corinne Kaszner: "Historisieren und/oder überwinden? Foucault im Kontext 'Neuer Materialismen'", in: Le foucaldien, 1/1 (2015), pp. 1-9, https://doi.org/10.16995/lefou.9</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 In Anlehnung an den Interviewband New Materialism: Interviews & Cartographies (hg. v. Rick Dolphijn und Iris van der Tuin, Ann Arbor: Open Humanities Press 2012) verwende ich den Begriff des Neuen Materialismus als Oberbegriff für die eigentlich heterogenen Strömungen des Neuen Materialismus im engeren Sinne (vertreten bspw. durch Rosi Braidotti und Manuel DeLanda), des Spekulativen Realismus (z. B. Quentin Meillassoux) und des Agentiellen Realismus (Karen Barad). Für einen Überblick siehe vor allem Diana Coole u. Samantha Frost (Hg.): New Materialisms. Ontology, Agency, and Politics, Durham/London: Duke University Press 2010 sowie Levi Bryant, Nick Srnicek u. Graham Harman (Hg.): The Speculative Turn. Continental Materialism and Realism, Melbourne: re.press 2012. Des Weiteren: Quentin Meillassoux: Après la Finitude. Essai sur la nécessité de la contingence. Paris: Éd. du Seuil 2006 und Karan Barad: Meeting the Universe Halfway. Quantum Physics and the Entanglement of Matter and Meaning, Durham/London: Duke University Press 2007.
+2 Diana Coole u. Samantha Frost: Introducing the New Materialisms, in: dies. (Hg.) New Materialisms, S. 1–46, hier: S. 3.
+3 Ebd., S. 6.
+4 Ebd., S. 15.
+5 Rosi Braidotti: Interview, in: Dolphijn u. van der Tuin (Hg.): New Materialism, S. 21.
+6 Ebd.
+7 Ebd.
+8 Quentin Meillassoux: Interview, in Dolphijn u. van der Tuin (Hg.): New Materialism, S. 77.
+9 Dolphijn u. van der Tuin: New Materialism, S. 167.
+10 Ebd.
+11 Hier ließe sich einwenden, dass Barads Kritik auf einer Überbewertung bzw. Verabsolutierung von Foucaults Disziplinarmacht-Analysen basiert. Während die Thematik der Disziplinarmacht v. a. in der ersten Hälfte der 1970er Jahre dominierte, wurde diese sukzessiv um die Konzeption der Biomacht und die Gouvernementalitätsthematik ergänzt. Ich danke Maurice Erb für diesen Hinweis.
+12 Barad: Meeting the Universe Halfway, S. 200.
+13 Quentin Meillassoux: Nach der Endlichkeit. Versuch über die Notwendigkeit der Kontingenz, übers. v. Roland Frommel, Zürich/Berlin: diaphanes 2014 [franz. 2006], S. 165–166.
+14 Ebd., S. 19.
+15 Ebd., S. 70.
+16 Ebd., S. 67, S. 69ff.
+17 Michel Foucault: Einführung in Kants Anthropologie, übers. v. Ute Frietsch, Berlin: Suhrkamp 2010 [franz. 2008].
+18 Ebd., v.a. S. 66ff.
+19 Ebd., S. 115.
+20 Ebd., S. 111.
+21 Martin Heidegger: Kant und das Problem der Metaphysik, 7. Aufl., Frankfurt/M: Vittorio Klostermann 2010 [1929].
+22 Bei Heidegger findet sich die Stelle zur 'Frage nach dem Menschen' zu Beginn des vierten Teils seines Kantbuches; er spricht vom plötzlichen 'Auftauchen' der Frage "Was ist der Mensch?" in der Logik, die so wirke, als sei sie "äußerlich angefügt und zudem überflüssig", und die außerdem die Harmonie der drei Disziplinen der Metaphysik – Kosmologie, Psychologie, Theologie – störe (Heidegger: Kant und das Problem der Metaphysik, S. 207). Das Foucault'sche Äquivalent klingt entsprechend so: "Eine vierte Frage: Was ist der Mensch? erscheint und diese folgt den drei ersten nur, um sie in einer Referenz aufzugreifen, die sie alle umfaßt: Denn alle müssen sich auf sie beziehen, wodurch der Anthropologie auch die Metaphysik, die Moral und die Religion in Rechnung zu stellen sind. Verrät diese brüske Bewegung, welche die drei Fragestellungen auf das anthropologische Thema hin kippen läßt, nicht einen Bruch im Denken?" (Foucault: Einführung in Kants Anthropologie, S. 68).
+23 Federico Luisetti: The Kantian Sleep. On the Limits of the 'Foucault-Effect'', in: Revista de Estudios Sociales, 43 (2012), S. 121–130, hier: S. 126.
+24 Ebd., S. 125.
+25 Michel Foucault: Die Ordnung der Dinge. Eine Archäologie der Humanwissenschaften. Frankfurt/M: Suhrkamp 1974 [franz. 1966], S. 412.
+26 Ebd.
+27 Ebd., S. 310.
+28 Meillassoux: Nach der Endlichkeit, S. 31.
+29 Gilles Deleuze: Foucault, Frankfurt/M: Suhrkamp 1992 [franz. 1986], S. 159 u. 152ff.
+30 Ebd., S. 142.
+31 Ebd., S. 142f., S. 147f., S. 167.
+32 Ebd., S. 167.
+-->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="http://hc.rediris.es/07/index.html">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Cunha, Paulo Ferreira da: "Da constituic,a~o do Estado Novo Português (1933)", in: Historia Constitucional 7 (2006), pp. 187-208, http://hc.rediris.es/07/index.html</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 O presente texto retoma e aprofunda A Constituição de 1933, entre Forma e Realidade, conferência destinada ao Colóquio “Histus II. Historiadores e Iuris-Historiadores: a identidade e a diferença”, 16 a 19 de Março 2005. Uma versão definitiva virá a ser publicada em livro de nossa autoria.
+2 No pouco quanto nela conseguira resistir de ainda “liberal” ou “parlamentar”, como veremos.
+3 Por isso, no final do regime, fenómenos mediáticos aparentemente banais em democracia (mas aí estava toda a diferença) como o programa televisivo “Zip Zip” ou as “Conversas em Família”, em que o chefe do governo, Marcello Caetano, monologava em tom paternalista em frente das câmaras, foram saudados como elementos de uma chamada “Primavera marcelista”, que teve também na Assembleia Nacional uma chamada “ala liberal” que, contudo, nem conseguiu renovar, nem permanecer no hemiciclo. Os próprios discursos dos deputados dessa ala eram censurados…
+4 Contudo, contra a ideia de confusão ou inversão de valores, que à primeira vista parece evidente, mas se pode revelar um tópico perigoso, propomos antes a tese de nos encontrarmos em momento de transição de alguns valores morais, na perenidade e grande consenso dos valores políticos, que apenas alguns extremistas recusam. Cf. Paulo Ferreira da CUNHA — “Ética Constitucional e Cidadania” in A Constituição Viva. Cidadania e Direitos Humanos, no prelo. Quanto aos micro-poderes profundamente constrangedores e a que a democracia contemporânea, ainda muito super-estrutural, tarda em chegar, desde logo, v. Michel FOUCAULT — Microfísica do Poder, antologia com org., introd. e trad. de Roberto Machado, Rio De Janeiro, Graal, 1979.
+5 Porém, a obra de sanamento de Salazar, alvo da sua intensa propaganda, parece não ter sido tão mágica como se tem proclamado, e até como alguns discordantes do seu pensamento têm acreditado. Cf., desde logo, com profusa documentação quantitativa, além de uma verve cativante (desde logo no episódio da tentação do demónio, pp. 43-44), Cunha LEAL – A Obra Intangível do Dr. Oliveira Salazar, Lisboa, Edição do autor, 1930.
+6 Referimo-nos, evidentemente, ao conceito clássico de Nicos POULANTZAS – Poder político e classes sociais, trad. port., Rio de Janeiro, Martins Fontes, 1986 ; cf. ainda, a propósito, inter alia, C. Wright MILLS – A Elite do Poder, trad. port., Rio de Janeiro, Zahar, 4.ª edição, 1981; C. B. MCPHERSON – The Ruling Class, “Canadian Journal of Economics and Political Science”, Toronto, VII, 1941, pp. 95-100; Suzanne KELLER – Mas alla de la classe dirigente. Madrid, Editorial Tecnos, 1971; Robert DAHL – Who Governs? New Haven, Yale University Press, 1961; Peter BACHRACH –The Theory of Democratic Elitism: A Critique, Boston, University Press of America, 1980.
+7 Sobre o conceito de Legitimação pelo procedimento, Niklas LUHMANN — Legitimation durch Verfaheren, 2.ª ed., Neuwid, 1975, trad. port., Legitimação pelo procedimento, Brasilia, Ed. Univ. Brasília, 1980.
+8 Maria da Conceição Nunes de Oliveira RIBEIRO – O Debate em torno do Projecto de Constituição do Estado Novo na Imprensa de Lisboa e Porto (1932-1933), in “Anuário Português de Direito Constitucional”, Coimbra, Coimbra Editora, II, 2002, p. 241.
+9 Adalberto Gastão de Sousa Dias, Dr. Afonso Augusto da Costa, Alberto Alexandrino, Alfredo António Chaves, Álvaro Poppe, Américo Adelino dos Santos Doutel, Américo Augusto Martins Sanches, António Augusto Dias Antunes, António Fernandes Varão, António Luiz Prestes Salgueiro, Armando de Azevedo, Armando Pereira de Castro Agatão Lança, Augusto Casimiro dos Santos, Dr. Bernardino Luiz Machado Guimarãis, Carlos Vilhena, Carlos Venceslau Frazão Sardinha, Eduardo Henrique Maia Rebelo, Ernesto Poppe, Fernando Pais Teles de Utra Machado, Fernando Augusto Freiria, Filemon da Silveira Duarte de Almeida, Francisco Alexandre Lobo Pimentel, Francisco Filipe de Sousa, Francisco de Oliveira Pio, Gabriel dos Santos Pereira, Genipro da Cunha de Eça Costa Freitas e Almeida, Gonçalo Monteiro Filipe, Inácio Severino de Melo Bandeira, Jaime Alberto Castro de Morais, Jaime Augusto Pinto Garcia, Jaime Pereira Rodrigues Baptista, João Manuel de Carvalho, João Pereira de Carvalho, Dr. João dos Santos Monteiro, João da Silva Quilhó, Joaquim Pinto de Lima, José Lopes Soares, José Maria Videira, José Sarmento de Beires, José Mendes dos Reis, Júlio Carlos Faria Lapa, Luiz António da Silva Tavares de Carvalho, Manuel António Correia, Manuel Ferreira Camões, Dr. Manuel Gregório Pestana Júnior, Manuel Sílvio Pélico de Oliveira Neto, Manuel Vasques, Marcial Pimentel Ermitão, Nuno Cerqueira Machado Cruz, Sebastião José da Costa.
+10 Cf., v.g., Paulo Ferreira da CUNHA – As Liberdades Tradicionais e o Governo de D. João VI no Brasil. Ensaio Histórico-Jurídico Preliminar, in “Quaderni Fiorentini per la Storia del Pensiero Giuridico Moderno”, 32, 2003, a recolher in Pensamento Jurídico Luso-Brasileiro, em preparação.
+11 António FERRO – Salazar e a sua Obra, Lisboa, Fernando Pereira, ed. de 1982, p. 99.
+12 http://www.iscsp.utl.pt/~cepp/indexfro1.php3?http://www.iscsp.utl.pt/~cepp/regimes_politicos/estado_novo.htm
+13 Cf., v.g., Adriano MOREIRA – O Novíssimo Príncipe. Análise da Revolução, Braga / Lisboa, Intervenção, 1977, p. 88.
+14 Já antes candidatos de peso se tinham apresentado, como Norton de Matos, em 1949, e Quintão Meireles, em 1952. Mas o regime teve um verdadeiro sobressalto com o fenómeno de adesão popular com Humberto Delgado, em 1958. Para estas candidaturas, cf. a obra, que saiu então anónima, Eleições Presidenciais, Lisboa, Delfos, colecção “Compasso do Tempo”, s.d.
+15 E contudo o “centro” tem realmente um lugar, e estão catalogadas as suas possibilidades, nenhuma se identificando com a ditadura.
+16 Marcello CAETANO – A Constituição de 1933. Estudo de Direito Político, Coimbra, Coimbra Editora, 1956, p. 13.
+17 A Reforma do Direito Civil, p. XXXII.
+18 Do Projecto ao Código Civil. Comunicação feita na Assembleia Nacional no dia 26 de Novembro de 1966 pelo Ministro da Justiça, Dr. João de Mattos Antunes Varela, p. V.
+19 Ibidem, p. VI.
+20 A Reforma do Direito Civil, p. XXXII.
+21 Do Projecto ao Código Civil. Comunicação feita na Assembleia Nacional no dia 26 de Novembro de 1966 pelo Ministro da Justiça, Dr. João de Mattos Antunes Varela, p. XXX.
+22 Ibidem, p. XXX.
+23 Independentemente do que se opine no plano moral, ético, religioso, político, e de política jurídica sobre casamentos entre homossexuais, e independentemente ainda de como se interpretem as normas constitucionais que com tal possam ser pertinentes, a argumentação de que a recusa de casamento homossexual por funcionário competente se legitimaria validamente em pressupostos do Código Civil (v.g. os requisitos do art.º 1557), sobrepondo-se à Constituição, seria disso um exemplo. Cf., a propósito desta questão, Lídia BRANCO – Editorial, “O Advogado”, n.º 22, 13 de Fevereiro de 2006, p. 2. Talvez o problema seja de tal forma significativo, hoje, que deva colocar-se em sede constituicional e não meramente registal.
+24 Adriano MOREIRA – O Novíssimo Príncipe, p. 88.
+25 Ibidem.
+26 Ibidem, pp. 88-90.
+27 Jorge MIRANDA – Manual de Direito Constitucional, tomo I. Preliminares. O Estado e os Sistemas Constitucionais, 5.ª ed., Coimbra, Coimbra Editora, 1996, p. 318 ss..
+-->

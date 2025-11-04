@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://www.anci.ch/articles/ancilla2012_204_besson-zysset.pdf">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Besson, Samantha & Zysset, Alain: "Human Rights Theory and Human Rights History: A Tale of Two Odd Bedfellows", in: Ancilla Iuris. International Law and Ethics (anci.ch) (2012), pp. 204–219, https://www.anci.ch/articles/ancilla2012_204_besson-zysset.pdf</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 See e.g. Henry Shue, Basic Rights: Subsistence, Affluence, and U.S. Foreign Policy (1996); James W. Nickel, Making Sense of Human Rights (2007); James Griffin, On Human Rights (2008); Charles Beitz, The Idea of Human Rights (2009); Carl Wellman, The Moral Dimensions of Human Rights (2011).
+2 See e.g. Johannes Morsink, The Universal Declaration of Human Rights: Origins, Drafting, and Intent (1999); Paul G. Lauren, The Evolution of International Human Rights: Visions Seen (2003); Kenneth Cmiel, The Recent History of Human Rights, American Historical Review 109:1 (2004), 117–135; Mary Ann Glendon, A World Made New: Eleanor Roosevelt and the Universal Declaration of Human Rights (2001); Lynn Hunt, Inventing Human Rights: a History (2007); Johannes Morsink, Inherent Human Rights: Philosophical Roots of the Universal Declaration (2009); Samuel Moyn, The Last Utopia: Human Rights in History (2010); Roland Burke, Decolonization and the Evolution of International Human Rights (2010); Stefan‐Ludwig Hoffmann/Samuel Moyn (ed.), Human Rights in the Twentieth Century (2011), Akira Iriye/Petra Goedde/ William I. Hitchcock, (ed.), The Human Rights Revolution, An International History (2012). See also in the legal history of international human rights, e.g. Alfred William Brian Simpson, Human Rights and the End of Empire: Britain and the Genesis of the European Convention (2004); Ed Bates, The Evolution of the European Convention on Human Rights: From Its Inception to the Creation of a Permanent Court of Human Rights (2010); Jenny S. Martinez, The Slave Trade and the Origins of International Human Rights Law (2012); Aryeh Neier, The International Human Rights Movement: A History (2012) and in the intellectual history of human rights and especially of natural rights Michael Zuckert, Natural Rights and the New Republicanism (1994) and Knud Haakonssen, Natural Law and Moral Philosophy: From Grotius to the Scottish Enlightenment (1996).
+3 See Iriye/Goedde/Hitchcock, op.cit., 15.
+4 See e.g. Nickel, op. cit., 7.
+5 It is important to distinguish the (social) history of human rights qua norms and institutions, that is our topic here, from the (intellectual) history of the idea of human rights and hence from the history of theories of human rights. It suffices to think of Haarscher 1993’s book to see how a book on the history of human rights theories across centuries can go by the name of human rights theorizing. Of course, the latter project qua legal project may be explained as a human rights theory project by reference to the fact that legal theories of human rights are more present in the legal practice of human rights than in their other social practices: the law often tells a story about its norms and makes it stick, and this is particularly the case with their intellectual history. Cf. Guy Haarscher, Philosophie des droits de l’homme (1993) .
+6 Of course, the reverse question may also be raised from the perspective of human rights history, but it will not be broached in full in this article. Although one of us is trained as a historian, we are writing this article from the perspective of political and legal philosophy.
+7 There are many reasons for this that we cannot expand on here. One of them is the social role of the law and hence its historicizing role as a result in entrenching history within social norms. Another distinct reason pertains to law’s claim to legitimate authority, and how the latter may be closely related to historical claims in many cases.
+8 Of course, depending on one’s legal theory, the relationship to social facts and hence to their history will be more or less central. The kind of legal theory of human rights at stake in this article is clearly normative, however, albeit being of a normative positivist kind.
+9 Joas puts the point as follows: “philosophical justifications do not need history. In the case of human rights, they mostly develop their arguments out of the alleged character of reason or moral obligation as such, out of the conditions of a thought experiment or the fundamentals of an idealized rational discourse”. Hans Joas, The Emergence of Universalism: An Affirmative Genealogy, in: Peter Hedström and Björn Wittrock (ed.), Frontiers of Sociology (2009), 18.
+10 See e.g. Griffin, On Human Rights, 48–51. See, however, the criticism of Griffin on this point in John Tasioulas, Taking Rights out of Human Rights, Ethics 120 (4) (2010), 647–678.
+11 Griffin, On Human Rights, Chapter 1.
+12 Ibid., 13.
+13 See e.g. on the exclusion of historical‐origins arguments for or against the universal justification of human rights, Allen Buchanan, Human Rights and the Legitimacy of the International Order, Legal Theory 14 (1) (2008), 39–70.
+14 William Dray, The Rationale of Actions, in: Michael Martin (ed.), Readings in the Philosophy of Social Science (1994), 173.
+15 On such a third way, see e.g. Hans Joas, Die Sakralität der Person. Eine neue Genealogie der Menschenrechte (2011). On some of the dangers of transcending too quickly the boundaries between international legal history and international legal theory, see e.g. Alexandra Kemmerer, The Turning Aside: International Law and Its History, in: Russell A. Miller/Rebecca M. Bratspies (ed.), Progress in International Law (2008), 71–94, 72, 79.
+16 Christian Reus‐Smit, On Rights and Institutions, in: Charles R. Beitz/Robert E. Goodin (ed.), Global Basic Rights (2009).
+17 James Griffin and John Tasioulas are two important representatives of the ethical or traditional conception. See Griffin, On Human Rights, but also James Griffin, Human Rights and the Autonomy of International Law, in: Samantha Besson/John Tasioulas (ed.), The Philosophy of International Law (2010); see Tasioulas, Taking Rights out of Human Rights; John Tasioulas, Human Rights, Universality and the Values of Personhood: Retracing Griffin’s Steps, European Journal of Philosophy 10 (1) (2002), 79–100; John Tasioulas, The Reality of Human Rights, in: Thomas Pogge (ed.), Freedom from Poverty as a Human Right (2004). Charles Beitz, Joseph Raz and Joshua Cohen are three important representatives of the political or practical conception, see Beitz, op. cit.; Joseph Raz, Human Rights without Foundations, in: Samantha Besson/John Tasioulas (ed.), The Philosophy of International Law (2010); Joshua Cohen, Minimalism About Human Rights: The Most We Can Hope For?, Journal of Political Philosophy 12 (2) (2004), 190–213. The seminal ideas present in those accounts are found in John Rawls, The Law of Peoples (1999), 36–38, 65–66, 78–81.
+18 Griffin, On Human Rights, 13.
+19 See Jeremy Waldron, The Decline of Natural Right, in: Allen W. Wood/Songsuk Susan Hahn (ed.), The Cambridge History of Nineteenth Century Philosophy (2012), forthcoming.
+20 Curiously, Nickel regards his concept as a‐historical and contrasts it with “historic ideas of natural rights ”, Nickel op. cit., 7.
+21 Ibid., 16.
+22 Mark Philp, Political Theory and History, in: David Leopold/Marc Stears (ed.), Political Theory: Methods and Approaches (2008), 129.
+23 Allen Buchanan, The Egalitarianism of Human Rights, Ethics 120 (4) (2010), 681.
+24 See e.g. Samantha Besson, The Egalitarian Dimension of Human Rights, Archiv für Rechts‐ und Sozialphilosophie Beiheft (2012), in press.
+25 Buchanan, The Egalitarianism of Human Rights, 688–689.
+26 Ronald Dworkin, Justice for Hedgehogs (2011), 350.
+27 See Beitz, op. cit.; see also Raz, Human Rights without Foundations.
+28 For a critique of Beitz and the argument that legal theory may be the best way of theorizing the normative practice of human rights, see Samantha Besson, Human Rights qua Normative Practice: Sui Generis or Legal?, Transnational Legal Theory 1 (1) (2010), 127–133.
+29 Beitz, op. cit., 102.
+30 Ibid., 127–128.
+31 Ibid., 14–27.
+32 Ibid., 137.
+33 Hans‐Johann Glock, Analytic Philosophy and History: A Mismatch?, Mind 117 (468) (2008), 868.
+34 Ibid., 137.
+35 Samuel Moyn, Personalism, Community, and the Origins of Human Rights, in: Stefan‐Ludwig Hoffmann/Samuel Moyn (ed.), Human Rights in the Twentieth Century (2011), 86.
+36 Cmiel, op. cit., 119.
+37 See for example Geuss in his criticism of human rights qua rights. He believes human rights will exist only when history will have established reliable enforcement institutions. See Raymond Geuss, History and Illusion in Politics (2001), 143–146. See also Vincent in the introduction to his book on the politics of human rights: “It is a mistake to argue that humans, by the mere fact of being human, have rights, and that humans are in some way morally considerable in themselves, regardless of social or political context ”. See Andrew Vincent, The Politics of Human Rights (2010), 1. For Vincent, it seems that addressing the political structures in which human rights are embedded necessarily excludes the possibility of normative reconstruction of the idea of human rights as those rights we have just in virtue of our humanity.
+38 Mark Mazower, End of Civilization and the Rise of Human Rights, in: Stefan‐Ludwig Hoffmann/Samuel Moyn (ed.), Human Rights in the Twentieth Century (2011); see also Mark Mazower, The Strange Triumph of Human Rights, 1933–1950 , The Historical Journal 47 (2) (2004), 379–398.
+39 Vincent, op. cit., 105.
+40 As Vincent explains “there is another powerful aspect of the state tradition in the nineteenth and twentieth centuries which overlaps with the civil tradition, that is, the organic nation‐state theory. What characterizes this latter theory is a constellation of interests focusing on issues such as nationalism, culture, identity, and race, which have often claimed to be ‘natural’ language of the state. Both of these dimensions of the state tradition configure understandings of citizenship, rights, and law ”, Vincent, Ibid., 153.
+41 See also in the context of the recent history of international law, more generally, Martti Koskenniemi, The Gentle Civilizer of Nations: The Rise and Fall of International Law, 1870–1960 (2001), 6–7; Kemmerer, op.cit.
+42 Cmiel, op.cit., 119.
+43 Moyn, Personalism, Community, and the Origins of Human Rights, 86.
+44 Dray, op.cit., 173.
+45 Hunt, op.cit.
+46 Cmiel, op.cit., 129.
+47 Ibid., 126.
+48 Simpson, op.cit., VII.
+49 See Tasioulas, Taking Rights out of Human Rights; Buchanan, The Egalitarianism of Human Rights; see also Besson, Human Rights qua Normative Practice: Sui Generis or Legal?
+50 See Tasioulas, Taking Rights out of Human Rights., 647–678; see also Christian Barry/Nicholas Southwood, What is Special About Human Rights?, Ethics & International Affairs 25 (3) (2011), 369–383.
+51 Cmiel, op.cit., 127.
+52 Ibid.
+53 Moyn, Personalism, Community, and the Origins of Human Rights, 73.
+54 Ibid., 173.
+55 See e.g. Raz, Human Rights Without Foundations; Allen Buchanan, Human Rights and Moral Progress, in: Cindy Holder/David Reidy (ed.), Human Rights: The Hard Questions (2012), forthcoming.
+56 See e.g. Tasioulas, Taking Rights out of Human Rights; Raz, Human Rights Without Foundations.
+57 Rainer Forst, The Justification of Human Rights and the Basic Right to Justification: A Reflexive Approach, Ethics 120 (4) (2010), 725.
+58 Jean L. Cohen, Rethinking Human Rights, Democracy, and Sovereignty in the Age of Globalization, Political Theory 36 (4) (2008), 598.
+59 Forst, op.cit., 706.
+60 David Miller, Political Philosophy for Earthlings, in: David Leopold/Marc Stears (ed.), Political Theory: Methods and Approaches (2008), 31.
+61 Beitz, op.cit., 114.
+62 For this critique, see Besson, Human Rights qua Normative Practice: Sui Generis or Legal?; Samantha Besson, Human Rights: Ethical, Political... or Legal? First Steps in a Legal Theory of Human Rights, in: Donald Earl Childress (ed.), The Role of Ethics in International Law (2012).
+63 Reus‐Smit, op.cit., 29–37.
+64 See Joseph Raz, Human Rights in the Emerging World Order, Transnational Legal Theory 1 (1) (2010), 31–47; see also Besson, Human Rights: Ethical, Political... or Legal?; Samantha Besson, Human Rights and Democracy in a Global Context – Decoupling and Recoupling, Ethics and Global Politics 4 (1) (2011), 19–50.
+65 Philp, op.cit., 148.
+66 This would be the case of some recent incursions of human rights historians into the field of human rights theory. See e.g. Samuel Moyn, Of Deserts and Promised Lands (on the history of international courts), The Nation, March 19, 2012.
+67 See e.g. Koskenniemi, op.cit, 7, for a discussion of the importance of a clear conceptual frame in international legal history and hence, by extension, of the benefits of the categories developed in normative theory when devising a historiographical project.
+68 See e.g. Morsink, Inherent Human Rights: Philosophical Roots of the Universal Declaration; Griffin, On Human Rights.
+69 See e.g. Kemmerer, op.cit., 79.
+-->

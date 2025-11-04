@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://hdl.handle.net/11168/11.542775">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Segal, Charles: "Poetry, Performance, and Society in Early Greek Literature", in: Lexis 2 (1988), pp. 123-144, https://hdl.handle.net/11168/11.542775</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1) New Grub Street, Harmondsworth (U.K.) 1968, chaps. 4 and 9.
+2) See Longin. De sublim. 35.4, ecchoing Call. Ap. 108-12.
+3) Sec B. Gentili, Poesiaepubblico neila Grecia antica, Roma-Bari 1984, 9ff., 18ff.; also C. J. Herington, Poetry into Drama, Sather Classical Lectures 49, Berkeley and Los Angeles 1985, part I.
+4) See H. T. Wade-Gery, The Poer of the Iliad, Cambridge 1952.
+5) The parallel with the Renaissance was a favorite one early in this century: see A. Hauser, 7 The Social History of Art, trans. S. Godman, New York 1951, 1.75.
+6) The relevance of the Ares-Aphrodite song to the central plot of the Odyssey has been much discussed. For a recent interpretation and bibliography see N. Austin, Archery al the Dark of the Moon, Berkeley and Los Angeles 1975, 159-62.
+7) Onthe contrasting modes of responding to songs see G. Walsh, The Varieties of Enchaniment, Chapel Hill, (N.C.) 1983, chap. 1, especially pp. 3-6 and 15ff.
+8) on this passage see Gentili, 54f.
+9) Hes. Th. 52ff.; cf. 8 594-98. See P, Pucci, Hesiod and the Language of Poetry, Baltimore 1977, 22 ff.; also A. Bergren, Helen’s Good Drug: Odyssey IV 1-305, in S. Kresic, ed., Contemporary Literary Hermeneutics and Inierpretation of Classical Texts, Ottawa 1981, 201-14, especially p. 210. Cf. also Stesich. r. 232 (PMG), where ‘““playfulness’” and song belong to Apolio, grief and lament to Hades (palgmosynai, moipai: kedea, stonachai).
+10) On this passage see R. P. Martin, Hesiod, Odysseus, and the Instruction of Princes, TAPRA 114, 1984, 29-48.
+11) On this tendency in oral poetry see E. A. Havelock, Prefece t0 Piato, Cambridge, (Mass.) 1963, chap. 3. Also B, Simon and J. Russo, Homeric Psychologyand the Orai Epic Tradition, JHI 29, 1968, 483-98.
+12) Sce Herington, 29, who suggest that the ‘“signals’’, samasin, in the next verse refer to the signs between poet and dancers. But the meaning, given the context, should probabiy not be limited to the (mortal) performance alone. For the circumstances of such performances see now M. Lefkowitz, AJPh 109, 1988, 1-11, and M. Heath, ibid., 180-95.
+13) & 261-65.
+14) See, A. von Mess, Der Typhonmyrthus bei Pindar und Aeschylus, RhM 56, 1901, 167-74.
+15) On such myths of first beginnings in Pindar see my essay, Naming, Truth, and Creation in the Poetics of Pindar, ‘“Diacritics’” 16, 1986, 65-83.
+16 The analogies between Hieron and Zeus as conquerors of disorder are further developed in Hiero’s victorious containment of the ‘“Phoenician and Carthaginian battle cry"", paralle! also to the mainland victories over the Persians in 72-80.
+17) Forthe association of Apollo and the Castalian spring with poetry cf. Pae. 6,7ff.; also Pyrh. 4.294, 295
+18) Sce the works of Herington and Gentili, above, note 3.
+19) Compare also the brazen voice of Achilies, like the sound of trumpet, in I 222f., and the voice of Athena in Soph. 4i. 16f.
+20) P, Zumthor, La podésie el la voix dans la civilisation médiévale, Paris 1984, 9-36, especially p. 11f.
+21) Sce J. M. Hurwit, The Art and Culture of Early Greece, Ithaca, (N. Y.) 1985, 49. There is perhaps further corroboration for the historicity of Phemius’ coucern with his Iyre in the fact that the lyre or other instrument sometimes appears in scenes on geometric vases. Farlier, there is the marble statuette of the ‘harpist'’ of the Cycladic period. Cf. also Herington, 17-19, with plate 11 (citharodist and his Iyre by the Berlin Painter in the Metropolitan Museum, New York), for the importance of the Iyre later in the archaic period. :
+22) The most receni discussion | have scen is that of W.G. Thalmann, Conventions of Form and Thought in Eariy Greek Poetry, Baltimore 1984, 126f., who suggests that the word implies «an innate ability exercised spontaneousiy» and compares k. Merc. 474 and 489. Cf. also Soph., Ai. 700, where the similar adtodati is used of the songs of Pan that come unbidden from the god.
+23) For recent discussion of this poern see A, Burnett, Three Archaic Poets, Cambridge, (Mass.) 1983, 259ff., especially p. 263f.
+24} For example, statue: B. 5.4, 10.11ff.; ef. Pind Nem. 5.1ff.; garland: Pind. Nem. 7.74; weaving: B. 5.9; tapestry: Pind Nem. 7,74.; libation of wine, O. 7.1ff; ef. Isth, 6.62f.; springs of water: Pyrh. 4.29 and Pae. 6,7ff.9; flowers and leaves: O/.12.15; and B. Pae. 4.63; streams: Pind, Nerm. 7. 12ff.; temple: Pind., Pyrth. 6.6ff., Pyth. 7.1ff., O!. 6.1ff., O16.1ff.; firerPind. 01.9.22 and B. Pae. 4.80; wings: B. /r. 20B.4, and cf. Pind O!, 14.24.
+25) Cf. respectively B. S.16ff., and cf. Pind. Nem. $.21; Pind. Pyrh. 1.42ff. and Nem, 7.71ff.; Pind. Isth. 4.1, B. 5.31-35 and 9.47f.; Pind. Isth. 6.23f.
+26) Pyth, 2.57£.; cf. Nem. 5.2£. On the awareness of the textuality of the ode in Pindar see my Pindar’s Mythmaking: The Fourtk Pythian Ode, Princeton 1986, 153îf.
+27) For the problems of this much discussed passage see most recently G. W. Most, Pindar, O. 2.83-90, CQ 36, 1986, 304-16, with a review of previcus scholarship.
+28) The blindness of the Homeric bard would, of course, increase dependence and lessen mobility. Although not all the singers in Homer are blind (e.g. the Ithacan Phemius), one wonders whether the profession attracted the blind, as it did, for example, in Japanese culture. The association of blindness and the singer persists not only for Demodocus and the poet of the Homeric Hymn to (Delian) Apoilo (171ff.), but also in the myth of Thamyris and in the story of Stesichorus’ palinode.
+29) Cf. Pindar’s defense against charges of venality in Isthmian 2, which reflects a point where the poet is still somewhat uncomfortable with his ‘’professional”’ role. The aristocratic ties of friendship and clanship are still the ideal motivation behind such poetry.
+30) For some suggestion in this direction see my essay, Greek Tragedy: Truth, Writing, and the Representation of the Self, in Mnemai: Classical Studies in Memory of Karl K. Huitey, ed. Harold J. Evjen, Chico (CA) 1984, 41-67, now in my Inferpreting Greek Tragedy: Myth, Poetry, Text, Ithaca, (N. Y.}) 1986, especially p. 80ff. ] gratefully acknowledge a Fellowship from the National Endowment for the Humanities in 1985-86, during which this study was written.
+-->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://gitlab.mpcdf.mpg.de/dcfidalgo/llamore
+    ../../schema/xsd/dataset.xsd"
+    source="https://doi.org/10.60082/2817-5069.2547">
+    <title>Legal-Historical article with footnotes/marginal notes ()</title>
+    <description content-type="text/html"><![CDATA[ 
+    <p>Source: Keyes, Gary Murray. "The Validity of the Common Law Marriage in Ontario", in: Osgoode Hall Law Journal 1/1 (1958), pp. 58-68, https://doi.org/10.60082/2817-5069.2547</p>
+  ]]></description>
+    <instance xml:id="instance-1">
+        <description content-type="text/html"><![CDATA[ 
+      <h2>Footnote</h2>
+    ]]></description>
+        <input type="raw"><![CDATA[1 Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1.]]></input>
+        <output type="segmented-instance">
+            <note xmlns="http://www.tei-c.org/ns/1.0"
+                n="1"
+                type="footnote"
+                place="bottom">
+                <label>1</label>
+                <bibl>Ludwig Wittgenstein, Tractatus logico-philosophicus, London 1922, 1.1</bibl>.
+            </note>
+        </output>
+    </instance>
+</dataset>
+
+<!-- 
+1 [1957] O.R. 14, affirmed at p. 454.
+2 R.S.O. 1950, c. 222.
+3 [1957] O.R. 14, at p. 18.
+4 R.S.O. 1937, c. 207; now R.S.O. 1950, c. 222, s. 44. NOTE: sec. 33 and sec. 44 are not quite the same; sec. 33 of the 1937 Act says notwithstanding the entire absence of both 'banns and licence.
+5 [1957] O.R. 14, at p. 21.
+6 See for example, Clause v. Clause, [1956] O.W.N. 449.
+7 If the parties to a marriage solemnized in good faith and intended to be in compliance with this Act are not under a legal disqualification to contract such a marriage and after such solemnization have lived together and cohabited as man and wife, such marriage shall be deemed a valid marriage, notwithstanding that the person who solemnized the marriage was not authorized to solemnize marriage, and notwithstanding the absence of or any irregularity or insufficiency in the publication of banns or the issue of licence or special permit: R.S.O. 1950, c. 222, s. 44.
+8 [1956] O.W.N. 449.
+9 J. p. Bishop, Marriage and Divorce (Chicago, Flood & Co., 1891), p. 327.
+10 Beamish v. Beamish (1861), 9 H. of L. [Cases 274, at p. 324.
+11 (1844), Cl. & Fin. 534.
+12 Haydon v. Gould (1703), Salk. 119, at p. 120.
+13 [1844], Cl. & Fin. 534.
+14 Sir F. Pollock and F. W. Maitland, History of English Law, 2nd ed. (Cambridge, University Press, 1899), 11, pp. 369-372.
+15 [1946] P. 61.
+16 (1849) 7 Notes of Cases Supplement 17, 24.
+17 Edgar McInnis, Canada: A Political and Social History (Toronto, Rinehart & Co., 1954), p. 199.
+18 (1888), 15 O.R. 20, at p. 22.
+19 37 Vict. c. 6.
+20 26 Geo. II, c. 33.
+21 Ibid., sec. 18.
+22 33 Geo. III, c. 5 (U.C.).
+23 38 Geo. III, c. 4 (U.C.); 2 Geo. IV, c. 36 (U.C.)
+24 O'Connor v. Kennedy (1888), 15 O.R. 20 at pp. 23-24.
+25 See: 33 Geo. III, c. 5 (UJC.); 38 Geo. III, c. 4 (U.C.).
+26 Craies on Statute Law, 5th ed. (London, Sweet & Maxwell, 1952), p. 312 and cases there cited.
+27 (1845), 9 Jur. 951.
+28 Ibid., at p. 954
+29 See footnote 25 ante.
+30 (1916), 36 O.L-.R. 427.
+31 The Marriage Law Amendment Act, 1919 (Ont.), c. 35, s. 2.
+32 The Statute Law Amendment Act, 1932 (Ont.), c. 53, s. 17.
+33 [1934] S.C.R. 72.
+34 Ibid., at p. 75.
+35 [1957] O.R. 14.
+36 8 B. & C. 29.
+37 [1956] O.W.N. 449.
+38 See footnote 30 ante.
+39 For the policy of the English courts, see for example: Taczanowska v. Taczanowski [1957] 3 All E.R. 563; Kochanski v. Kochanski [1957] 3 All E.R. 142.
+40 Eversley on Domestic Relations, 6th ed. (London, Sweet & Maxwell, 1951), p. 4.
+41 See footnote 7 ante.
+42 See footnotes 4 and 7 ante.
+43 See for example, Alspector v. Alspector [1957] O.R. 14.
+-->
